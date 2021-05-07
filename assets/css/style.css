@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Start */
+.banner{
+    background: rgb(29, 29, 29);
+    height: 70vh;
+}
+
+.banner-con{
+    min-height: 500px;
+}
