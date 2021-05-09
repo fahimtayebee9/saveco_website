@@ -45,6 +45,21 @@
     font-size: 18px;
 }
 
+/* Top-Contact ROW */
+.top-contact{
+    padding: 5px 0px;
+    margin: 0;
+    background: #fff9f0;
+    border-bottom: 1px solid #ed662232;
+}
+.top-contact .contact-list, .top-contact .contact-list li{
+    margin: 0;
+}
+
+.top-contact .contact-list li span{
+    font-size: 16px;
+}
+
 
 /* Banner Start */
 .banner {
@@ -677,18 +692,19 @@ footer .title{
     margin-top: 10px;
     font-weight: 500;
 }
-footer .contact{
+.contact{
     padding-top: 15px;
 }
-footer .contact-list li{
+.contact-list li{
     align-items: center;
     margin-bottom: 10px;
 }
-footer .contact-list li i{
+.contact-list li i{
     font-size: 18px;
+    margin-right: 8px;
 }
 
-footer .contact-list li span{
+.contact-list li span{
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins",sans-serif;
