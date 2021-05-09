@@ -28,7 +28,9 @@
     <link rel="stylesheet" href="assets/css/keyframe.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/aos.css">
-
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    
     <title>Home - SaveCo</title>
 
     <script>
@@ -86,28 +88,53 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="form-inline my-2 my-lg-0 w-75">
-                        <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search For..">
-                    </form>
-                    <ul class="list-unstyled d-flex justify-content-between align-items-center m-auto">
-                        <li><a href="#" class=""><i class="fab fa-opencart"></i></a></li>
-                        <li><a href="#" class=""><i class="far fa-bell"></i></a></li>
-                        <li><a href="#" class=""><i class="far fa-comment-alt"></i></a></li>
-                        <li><a href="#" class=""><i class="far fa-user"></i></a></li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent row">
+                    <div class="col-md-10">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="list-unstyled d-flex justify-content-between align-items-center m-auto">
+                            <li><a href="#" class=""><i class="fab fa-opencart"></i></a></li>
+                            <li><a href="#" class=""><i class="far fa-bell"></i></a></li>
+                            <li><a href="#" class=""><i class="far fa-comment-alt"></i></a></li>
+                            <li><a href="#" class=""><i class="far fa-user"></i></a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="list-unstyled navbar-nav  d-flex justify-content-between">
-                        <li><a href="#" class="">Discount Previllages</a></li>
-                        <li><a href="#" class="">All Shops</a></li>
-                        <li><a href="#" class="">Membership Card</a></li>
-                        <li><a href="#" class="">Campaigns</a></li>
-                    </ul>
+                <div class="container p-0">
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Discount Previllages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">All Shops</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Campaigns</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Become a vendor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">become a member</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+
         </div>
     </header>
 
@@ -149,7 +176,8 @@
                                     </div>
                                     <div class="col-md-6 m-auto align-items-center">
                                         <h1>Become our Member</h1>
-                                        <p class="offer">Get <span class="default-color bold">Up to 50%</span> off on any of our vendor</p>
+                                        <p class="offer">Get <span class="default-color bold">Up to 50%</span> off on
+                                            any of our vendor</p>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet at praesentium
                                             iste suscipit dolorem temporibus.</p>
                                     </div>
@@ -179,6 +207,7 @@
                 <div class="col-md-6 align-items-center m-auto" data-aos="fade-left">
                     <div class="text-box">
                         <h1 class="a-title"><span class="bold default-color">Welcome</span> to our business</h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
                         <p class="text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis
                             esse enim, voluptas corporis,
                             adipisci sit fuga in maxime iure amet earum. Eius, ut reprehenderit. Molestiae, voluptatum
@@ -201,6 +230,7 @@
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <div class="col-10 col-md-8 col-lg-8 col-sm-10 m-auto text-center">
                     <h1 class="a-title">Our <span class="bold">Membership</span> Cards</h1>
+                    <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
                     <p class="text-para">The Save Card allows you to enjoy exclusive Privilege discounts and rewards on
                         your grocery purchases, tuition fee, hospital bills, fuel expenses, restaurant bills and many
                         more from our more than 100 partner-establishments Rajshahi City.</p>
@@ -415,6 +445,179 @@
         </div>
     </section>
 
+    <!-- Why Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-10 m-auto text-center title-box">
+                    <h1>Why Choose Us</h1>
+                    <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/DigitalService.png" class="img-fluid w-25 " alt="">
+                        <h4>Digital Service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/Offers.png" class="img-fluid w-25 " alt="">
+                        <h4>Latest Offers</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/OurExperts.png" class="img-fluid w-25 " alt="">
+                        <h4>Experts</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/s24_7.png" class="img-fluid w-25 " alt="">
+                        <h4>24/7 Service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/D2D.png" class="img-fluid w-25 " alt="">
+                        <h4>D2D</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                    <div class="why-box text-center m-auto">
+                        <img src="assets/imgages/Order.png" class="img-fluid w-25 " alt="">
+                        <h4>Order</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Review -->
+    <section class="client-review">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 m-auto text-center title-box">
+                    <h1>What people say about us</h1>
+                    <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                </div>
+                <div class="col-md-12">
+                    <div
+                        class="review-carousel owl-carousel owl-theme owl-btn-2 owl-btn-white owl-btn-center owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s"
+                                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                        <div class="review-1">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="review-pic">
+                                                        <img src="assets/imgages/review-2.jpeg"
+                                                            class="user-img img-fluid" alt="User Image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 m-auto">
+                                                    <div class="review-text">
+                                                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, recusandae.</p>
+                                                    </div>
+                                                    <div class="review-detail">
+                                                        <div class="clearfix user-text align-items-center text-left d-block">
+                                                            <strong class="review-name "
+                                                                style="display: block!important;">John Doe</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s"
+                                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                        <div class="review-1">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="review-pic">
+                                                        <img src="assets/imgages/review-3.jpeg"
+                                                            class="user-img img-fluid" alt="User Image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 m-auto">
+                                                    <div class="review-text">
+                                                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, recusandae.</p>
+                                                    </div>
+                                                    <div class="review-detail">
+                                                        <div class="clearfix user-text align-items-center text-left d-block">
+                                                            <strong class="review-name "
+                                                                style="display: block!important;">Bob Jonson</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s"
+                                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                        <div class="review-1">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="review-pic">
+                                                        <img src="assets/imgages/review-5.jpeg"
+                                                            class="user-img img-fluid" alt="User Image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 m-auto">
+                                                    <div class="review-text">
+                                                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, recusandae.</p>
+                                                    </div>
+                                                    <div class="review-detail">
+                                                        <div class="clearfix user-text align-items-center text-left d-block">
+                                                            <strong class="review-name "
+                                                                style="display: block!important;">John Doe</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s"
+                                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                        <div class="review-1">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="review-pic">
+                                                        <img src="assets/imgages/review-3.jpeg"
+                                                            class="user-img img-fluid" alt="User Image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 m-auto">
+                                                    <div class="review-text">
+                                                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, recusandae.</p>
+                                                    </div>
+                                                    <div class="review-detail">
+                                                        <div class="clearfix user-text align-items-center text-left d-block">
+                                                            <strong class="review-name "
+                                                                style="display: block!important;">Steven John</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -518,6 +721,7 @@
     <script src="assets/plugins/popper.js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
     <script>
         const swiper = new Swiper(".swiper-container", {
@@ -543,6 +747,38 @@
         //     delay: 10,
         //     time: 1000
         // });
+
+        jQuery('.review-carousel').owlCarousel({
+            loop:true,
+            margin:30,
+            nav:true,
+            autoplaySpeed: 3000,
+            navSpeed: 3000,
+            paginationSpeed: 3000,
+            slideSpeed: 3000,
+            smartSpeed: 3000,
+            autoplay: true,
+            dots: false,
+            navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },			
+                
+                767:{
+                    items:2
+                },
+                1200:{
+                    items:2
+                },
+                2400:{
+                    items:3
+                }
+            }
+        })
     </script>
 </body>
 
