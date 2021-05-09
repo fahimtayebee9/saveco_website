@@ -60,8 +60,43 @@
     font-size: 16px;
 }
 
+.header-content{
+    padding: 15px 0;
+}
+.icon-list-menu li a{
+    color: rgb(29, 29, 29);
+}
+.icon-list-menu li a:hover{
+    color: #ed6622;
+}
 .navbar {
     padding: 0rem 0rem;
+}
+.dropdown-menu {
+    min-width: 100%;
+    border-radius: 0;
+}
+
+.menu-box{
+    background: rgb(29, 29, 29);
+    padding: 2px 0px;
+    color: white;
+}
+.menu-box .icon-list-menu li a i{
+    margin-right: 5px;
+}
+.menu-box .icon-list-menu li .dropdown-menu .dropdown-item{
+    color: #212529!important;
+    text-align: left;
+}
+.menu-box .icon-list-menu li a{
+    color: white!important;
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 15px!important;
 }
 
 /* Banner Start */
@@ -818,6 +853,65 @@
     font-weight: 500;
     font-family: 'Poppins',sans-serif;
     margin: 0;
+}
+
+/* Newsletter box */
+.newsletter-box{
+    padding: 70px 0px;
+}
+.news-box{
+    padding: 25px 35px;
+    background: #ff9b45;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.news-box h1{
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.news-box h4{
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+}
+.news-box p{
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    margin: 0;
+}
+.news-box input[type="email"]{
+    border: none;
+    border-radius: 25px;
+    color: #212121;
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+}
+.news-box .btn-news{
+    border: none;
+    background: #2f2f2f;
+    border-radius: 25px;
+    position: absolute;
+    right: 10%;
+    top: 44%;
+    padding: 7px 40px;
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+    font-weight: 500;
 }
 
 /* FOOTER */
