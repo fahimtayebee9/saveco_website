@@ -43,10 +43,9 @@
 
 </head>
 
-<body>
-
+<body onscroll="scroll()">
     <!-- TOP CONTACT ROW -->
-    <section class="top-contact">
+    <section class="top-contact" id="top-menu">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
@@ -75,9 +74,9 @@
             </div>
         </div>
     </section>
-
     <!-- Header Start -->
-    <header class="header-content">
+    <header class="header-content" id="menu">
+
         <div class="container">
             <!-- Menu Bar -->
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -108,60 +107,75 @@
                 </div>
             </nav>
         </div>
-    </header>
 
-    <section class="menu-box">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light menu-box">
-                <div class="container p-0">
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                        <ul class="icon-list-menu navbar-nav ">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-bars"></i>Discount Previllages
-                                </a>
-                                <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Beauty Care</a>
-                                    <a class="dropdown-item" href="#">Daily Needs</a>
-                                    <a class="dropdown-item" href="#">Entertainment</a>
-                                    <a class="dropdown-item" href="#">Electronic Device</a>
-                                    <a class="dropdown-item" href="#">Furniture</a>
-                                    <a class="dropdown-item" href="#">Grocery</a>
-                                    <a class="dropdown-item" href="#">Home Appliance</a>
-                                    <a class="dropdown-item" href="#">Hospitality</a>
-                                    <a class="dropdown-item" href="#">Hotel & Resort</a>
-                                    <a class="dropdown-item" href="#">Life Style</a>
-                                    <a class="dropdown-item" href="#">Medicine</a>
-                                    <a class="dropdown-item" href="#">Restaurant</a>
-                                    <a class="dropdown-item" href="#">Shopping</a>
-                                    <a class="dropdown-item" href="#">Tour & Travels</a>
-                                    <a class="dropdown-item" href="#">Others</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">All Shops</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
-                            </li>
-                        </ul>
-                        <ul class="icon-list-menu navbar-nav ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Become a vendor</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">become a member</a>
-                            </li>
-                        </ul>
+        <div class="menu-holder">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light menu-box">
+                    <div class="container p-0">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                            <ul class="icon-list-menu navbar-nav ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars"></i>Discount Previllages
+                                    </a>
+                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Beauty Care</a>
+                                        <a class="dropdown-item" href="#">Daily Needs</a>
+                                        <a class="dropdown-item" href="#">Entertainment</a>
+                                        <a class="dropdown-item" href="#">Electronic Device</a>
+                                        <a class="dropdown-item" href="#">Furniture</a>
+                                        <a class="dropdown-item" href="#">Grocery</a>
+                                        <a class="dropdown-item" href="#">Home Appliance</a>
+                                        <a class="dropdown-item" href="#">Hospitality</a>
+                                        <a class="dropdown-item" href="#">Hotel & Resort</a>
+                                        <a class="dropdown-item" href="#">Life Style</a>
+                                        <a class="dropdown-item" href="#">Medicine</a>
+                                        <a class="dropdown-item" href="#">Restaurant</a>
+                                        <a class="dropdown-item" href="#">Shopping</a>
+                                        <a class="dropdown-item" href="#">Tour & Travels</a>
+                                        <a class="dropdown-item" href="#">Others</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">All Shops</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">ACTIVATION & EVENT MANAGEMENT</a>
+                                        <a class="dropdown-item" href="#">WEDDING</a>
+                                        <a class="dropdown-item" href="#">CORPORATE</a>
+                                        <a class="dropdown-item" href="#">PRIVATE</a>
+                                        <a class="dropdown-item" href="#">CONSULTING & BRANDING</a>
+                                        <a class="dropdown-item" href="#">SaveCo24/7</a>
+                                        <a class="dropdown-item" href="#">International courier</a>
+                                        <a class="dropdown-item" href="#">Gift24/7</a>
+                                        <a class="dropdown-item" href="#">Tour & Travels</a>
+                                        <a class="dropdown-item" href="#">Save Card</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="icon-list-menu navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Become a vendor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">become a member</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
-    </section>
+    </header>
 
     <!-- Banner Section -->
     <section class="banner">
@@ -838,6 +852,21 @@
                 }
             }
         })
+
+        function scroll() {
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 80) {
+                        $('#menu').css("background", "#fff");
+                    }
+                    else {
+                        $('#menu').css("background", "#fff");
+                    }
+                })
+            })
+        }
+
     </script>
 </body>
 

@@ -56,12 +56,31 @@
     margin: 0;
 }
 
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+.navbar-back{
+    position:fixed;
+    top:0%;
+    z-index: 999;
+    left: 0%;
+    transform: translate(0%,0%);
+    background:transparent;
+    -webkit-transform: translate(0%,0%);
+    -moz-transform: translate(0%,0%);
+    -ms-transform: translate(0%,0%);
+    -o-transform: translate(0%,0%);
+    width: 100%;
+}
 .top-contact .contact-list li span{
     font-size: 16px;
 }
 
 .header-content{
     padding: 15px 0;
+    padding-bottom: 0px;
 }
 .icon-list-menu li a{
     color: rgb(29, 29, 29);
@@ -77,10 +96,11 @@
     border-radius: 0;
 }
 
-.menu-box{
+.menu-holder{
     background: rgb(29, 29, 29);
     padding: 2px 0px;
     color: white;
+    margin-top: 15px;
 }
 .menu-box .icon-list-menu li a i{
     margin-right: 5px;
