@@ -3,6 +3,74 @@
     padding: 0;
 }
 
+
+/* MOBILE MENU */
+.collapsing {
+    display: none;
+}
+.mbl_login_area{
+    padding: 45px 0;
+    text-align: center;
+    width: fit-content;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.header-content{
+    position: relative;
+}
+.toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid #00000017;
+    border-radius: .25rem;
+}
+.mbl-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.mbl-menu .dropdown-menu {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.closeBtn{
+    text-align: right;
+    padding: 15px;
+}
+.closeBtn a{
+    color: rgb(26, 26, 26)!important;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+#mbl_menu .nav-link{
+    color: rgb(22, 22, 22);
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+.navbg-color{
+    background: rgba(17, 17, 17, 0.507)!important;
+}
+
+
 /* Swiper CSS */
 .swipe-con{
     position: relative;
@@ -685,6 +753,9 @@
 .blue{
     background: #2491fe;
 }
+.blue-light{
+    background: #6eb7ff;
+}
 
 .icon-bg{
     width: 80px;
@@ -1069,4 +1140,240 @@ footer .join-us .social-link li:nth-child(3) a:hover i{
 
 .btm-footer a:hover{
     color: #181818;
+}
+
+
+/* ABOUT US PAGE START */
+/* Breadcrumb Section */
+.breadcrumb-body{
+    padding: 35px 0px;
+    background-image: url(../imgages/pexels-ksenia-chernaya-3965545.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-color: rgba(36, 36, 36, 1.0);
+    background-blend-mode: overlay;
+}
+.breadcrumb-body .breadcrumb{
+    background-color: transparent;
+}
+.breadcrumb-text{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(42, 42, 42, 0.85);
+    padding: 20px 0px;
+    position: relative;
+}
+.breadcrumb-text::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    content: "";
+    background-color: #f1592a;
+}
+.breadcrumb-text h1{
+    font-size: 34px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+.breadcrumb-text .breadcrumb-item a{
+    color: #f1592a;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.breadcrumb-text .active{
+    color: #fb8e70;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* About-Banner Section */
+.ab-banner{
+    padding: 70px 0px;
+    background: white;
+    align-items: center;
+    color: rgb(32, 32, 32);
+}
+.ab-banner .banner-con{
+    min-height: 30vh;
+}
+.ab-banner .banner-con h1{
+    font-size: 28px;
+    text-align: left!important;
+}
+.card-swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.ab-banner .banner-con p{
+    color: rgb(22, 22, 22);
+    text-align: left!important;
+}
+.ab-who{
+    position: relative;
+    padding: 20px;
+    background-color: rgb(255, 251, 248);
+}
+.ab-who:last-child{
+    margin-top: 25px;
+}
+.ab-who .icon-holder{
+    text-align: left;
+    margin: 0;
+}
+.ab-who .icon-bg{
+    width: 110px!important;
+    height: 110px!important;
+    text-align: center;
+}
+.ab-who-content{
+    padding: 15px 0;
+    text-align: left;
+}
+.ab-who-content::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    content: "";
+    background-color: #f1592a;
+}
+.ab-who-content h4{
+    font-size: 24px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.ab-who-content p{
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+.slogan{
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+
+
+/* FAQ SECTION */
+.faq-body{
+    padding: 70px 0px;
+}
+.faq-body .expert-border::before {
+    background: rgb(248, 99, 0);
+}
+.faq-body .expert-border::after {
+    background: rgb(248, 99, 0);
+}
+
+
+.accordion {
+    width: 100%;
+    margin: 30px auto 20px;
+    background: #ffffff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.link.collapsed {
+    background: #fff9f4;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 65px 15px 30px 42px;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.accordion .link p{
+    padding-left: 15%; 
+    margin-top: -9%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #1a1a1a;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 18px;
+}
+
+.accordion li.open .link { color: rgb(248, 99, 0);background: #fff9f4; }
+
+.accordion li.open i { color: rgb(248, 99, 0); }
+
+.accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.submenu {
+    display: none;
+    background: #fff9f4;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.submenu li { border-bottom: 1px solid #4b4a5e; }
+.submenu p{
+    font-size: 18px;
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 12px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+    background: rgb(248, 99, 0);
+    color: #FFF;
 }

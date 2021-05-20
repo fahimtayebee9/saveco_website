@@ -34,16 +34,24 @@
     <title>Home - SaveCo</title>
 
     <script>
-        // $(document).ready(function () {
-        //     // setTimeout(function () {
-        //     //$("#myModal").modal('show');
-        //     // }, 500);
-        // });
+        function onLoadBody(){
+            if (window.screen.width < 992) {
+                document.getElementById("menu").classList.remove("d-block");
+                document.getElementById("menu").classList.add("d-none");
+                document.getElementById("mbl_menu").classList.add("d-block");
+                document.getElementById("mbl_menu").classList.remove("d-none");
+            }
+            else{
+                document.getElementById("menu").classList.remove("d-none");
+                document.getElementById("menu").classList.add("d-block");
+                document.getElementById("mbl_menu").classList.remove("d-block");
+                document.getElementById("mbl_menu").classList.add("d-none");
+            }
+        }
     </script>
-
 </head>
 
-<body onscroll="scroll()">
+<body onload="onLoadBody()">
     <!-- TOP CONTACT ROW -->
     <section class="top-contact" id="top-menu">
         <div class="container">
@@ -74,6 +82,7 @@
             </div>
         </div>
     </section>
+    
     <!-- Header Start -->
     <header class="header-content" id="menu">
 
@@ -177,6 +186,97 @@
         </div>
     </header>
 
+    <!--MOBILE Header Start -->
+    <header class="header-content" id="mbl_menu">
+
+        <div class="container">
+            <!-- MOBILE HEADER LOGO ROW -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="navbar-brand" href="#"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+                            alt=""></a>
+                </div>
+            </div>
+            <!-- MOBILE HEADER MENU WITH SEARCH BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="toggler" type="button" id="nav_btn" onclick="openNav()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-md-11">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="navbg-color  mbl-menu" id="mb_nav_body" onclick="closeNav()">
+            <div class="bg-light mbl-menu" id="mb_nav">
+            
+                <div class="col-md-12">
+    
+                    <ul class=" icon-list-menu list-unstyled justify-content-between align-items-center m-auto">
+                        <li class="closeBtn">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        </li>
+                        <li class="mbl_login_area">
+                            <a href="#" class="btn btn-info">Login</a>
+                        </li>
+                    </ul>
+                    <ul class="icon-list-menu navbar-nav mbl_menu_panel">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="openDropdown1()">
+                                Discount Previllages
+                            </a>
+                            <div class="dropdown-menu text-dark" id="prev_drop">
+                                <a class="dropdown-item" href="#">Beauty Care</a>
+                                <a class="dropdown-item" href="#">Daily Needs</a>
+                                <a class="dropdown-item" href="#">Entertainment</a>
+                                <a class="dropdown-item" href="#">Electronic Device</a>
+                                <a class="dropdown-item" href="#">Furniture</a>
+                                <a class="dropdown-item" href="#">Grocery</a>
+                                <a class="dropdown-item" href="#">Home Appliance</a>
+                                <a class="dropdown-item" href="#">Hospitality</a>
+                                <a class="dropdown-item" href="#">Hotel & Resort</a>
+                                <a class="dropdown-item" href="#">Life Style</a>
+                                <a class="dropdown-item" href="#">Medicine</a>
+                                <a class="dropdown-item" href="#">Restaurant</a>
+                                <a class="dropdown-item" href="#">Shopping</a>
+                                <a class="dropdown-item" href="#">Tour & Travels</a>
+                                <a class="dropdown-item" href="#">Others</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Shops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">ACTIVATION & EVENT MANAGEMENT</a>
+                                <a class="dropdown-item" href="#">WEDDING</a>
+                                <a class="dropdown-item" href="#">CORPORATE</a>
+                                <a class="dropdown-item" href="#">PRIVATE</a>
+                                <a class="dropdown-item" href="#">CONSULTING & BRANDING</a>
+                                <a class="dropdown-item" href="#">SaveCo24/7</a>
+                                <a class="dropdown-item" href="#">International courier</a>
+                                <a class="dropdown-item" href="#">Gift24/7</a>
+                                <a class="dropdown-item" href="#">Tour & Travels</a>
+                                <a class="dropdown-item" href="#">Save Card</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Banner Section -->
     <section class="banner">
         <div class="container" data-aos="zoom-in">
@@ -255,7 +355,7 @@
                             eveniet voluptates quasi
                             molestias dolor nam quae necessitatibus repellendus autem voluptas consectetur praesentium
                             iure excepturi ratione.</p>
-                        <a href="#" class="btn btn-custom">Read More</a>
+                        <a href="about.html" class="btn btn-custom">Read More</a>
                     </div>
                 </div>
             </div>
@@ -712,7 +812,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="usefull-links">
-                        <h4>Quick Links</h4>
+                        <h4 class="f-title">Quick Links</h4>
                         <ul class="list-unstyled">
                             <li>
                                 <a href="" class="link"><i class="far fa-hand-point-right"></i>Our services</a>
@@ -737,19 +837,19 @@
                 </div>
                 <div class="col-md-4">
                     <div class="usefull-links">
-                        <h4>support</h4>
+                        <h4 class="f-title">support</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <a href=""><i class="far fa-hand-point-right"></i>About Us</a>
+                                <a href="about.html"><i class="far fa-hand-point-right"></i>About Us</a>
                             </li>
                             <li>
-                                <a href=""><i class="far fa-hand-point-right"></i>Terms & Conditions</a>
+                                <a href="terms.html"><i class="far fa-hand-point-right"></i>Terms & Conditions</a>
                             </li>
                             <li>
-                                <a href=""><i class="far fa-hand-point-right"></i>Privacy</a>
+                                <a href="privacy.html"><i class="far fa-hand-point-right"></i>Privacy</a>
                             </li>
                             <li>
-                                <a href=""><i class="far fa-hand-point-right"></i>Contact Us</a>
+                                <a href="contact.html"><i class="far fa-hand-point-right"></i>Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -757,13 +857,13 @@
                         <h4>join us</h4>
                         <ul class="list-unstyled d-flex social-link">
                             <li>
-                                <a href="" class="link"><i class="fab fa-facebook-square"></i></a>
+                                <a href="http://www.facebook.com" class="link"><i class="fab fa-facebook-square"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href=""><i class="fab fa-twitter-square"></i></a>
+                                <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -797,7 +897,7 @@
     <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
     <script>
-        const swiper = new Swiper(".swiper-container", {
+        const banner_swiper = new Swiper(".swiper-container", {
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
@@ -812,6 +912,17 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+
+        const card_swiper = new Swiper(".card-swiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: true,
+            }
         });
 
         AOS.init();
