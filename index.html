@@ -35,17 +35,17 @@
 
     <script>
         function onLoadBody(){
-            if (window.screen.width < 992) {
-                document.getElementById("menu").classList.remove("d-block");
-                document.getElementById("menu").classList.add("d-none");
-                document.getElementById("mbl_menu").classList.add("d-block");
-                document.getElementById("mbl_menu").classList.remove("d-none");
-            }
-            else{
+            if (window.screen.width > 992) {
                 document.getElementById("menu").classList.remove("d-none");
                 document.getElementById("menu").classList.add("d-block");
                 document.getElementById("mbl_menu").classList.remove("d-block");
                 document.getElementById("mbl_menu").classList.add("d-none");
+            }
+            else{
+                document.getElementById("menu").classList.remove("d-block");
+                document.getElementById("menu").classList.add("d-none");
+                document.getElementById("mbl_menu").classList.add("d-block");
+                document.getElementById("mbl_menu").classList.remove("d-none");
             }
         }
     </script>
@@ -89,7 +89,7 @@
         <div class="container">
             <!-- Menu Bar -->
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -575,58 +575,20 @@
         </div>
     </section>
 
-    <!-- Our Services -->
-    <section class="our-services">
+    <!-- Newsletter -->
+    <section class="newsletter-box">
         <div class="container">
-            <div class="row">
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Us -->
-    <section class="why-us">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-10 m-auto text-center title-box">
-                    <h1>Why Choose Us</h1>
-                    <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+            <div class="row news-box">
+                <div class="col-md-5">
+                    <h1>Get update from <br>anywhere</h1>
+                    <p>subscribe us to get latest offers</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/DigitalService.png" class="img-fluid w-25 " alt="">
-                        <h4>Digital Service</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/Offers.png" class="img-fluid w-25 " alt="">
-                        <h4>Latest Offers</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/OurExperts.png" class="img-fluid w-25 " alt="">
-                        <h4>Experts</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/s24_7.png" class="img-fluid w-25 " alt="">
-                        <h4>24/7 Service</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/D2D.png" class="img-fluid w-25 " alt="">
-                        <h4>D2D</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
-                    <div class="why-box text-center m-auto">
-                        <img src="assets/imgages/Order.png" class="img-fluid w-25 " alt="">
-                        <h4>Order</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, dolore.</p>
-                    </div>
+                <div class="col-md-7">
+                    <h4>don't miss out on the latest news</h4>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control w-75" type="email" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-news my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -765,19 +727,56 @@
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="newsletter-box">
+    <!-- Contact FORM -->
+    <section class="regform-area cmn-style">
         <div class="container">
-            <div class="row news-box">
-                <div class="col-md-5">
-                    <h1>Get update from <br>anywhere</h1>
-                    <p>subscribe us to get latest offers</p>
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <h1 class="a-title h1-bottom-border">Get In Touch</h1>
+                    <span class="border-def"></span>
+                    <p class="text-para">If you want to become a partner, submit your information. Our representative will contact with you very soon.</p>
                 </div>
-                <div class="col-md-7">
-                    <h4>don't miss out on the latest news</h4>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control w-75" type="email" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-news my-2 my-sm-0" type="submit">Search</button>
+            </div>
+            <div class="row wow slideInDown animation form-row">
+                <div class="col-12">
+                    <form>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-10 col-lg-6 col-md-6 col-sm-10">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name" class="form-control input-setting" id="exampleFormControlInput1">
+                                    <span class="animate-border"></span>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-6 col-md-6 col-sm-10">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Mobile Number" class="form-control input-setting" id="exampleFormControlInput1">
+                                    <span class="animate-border"></span>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-6 col-md-6 col-sm-10">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Email" class="form-control input-setting" id="exampleFormControlInput1">
+                                    <span class="animate-border"></span>
+                                </div>
+                            </div>
+                            <div class="col-10 col-lg-6 col-md-6 col-sm-10">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Subject" class="form-control input-setting">
+                                    <span class="animate-border"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 col-lg-12 col-md-12 col-sm-10 story-align get-align">
+                                <div class="form-group">
+                                    <textarea class="form-control input-setting" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <span class="animate-border"></span>
+                                </div>
+                            </div>
+                            <div class="col-6 get-touch-button">
+                                <a href="#" class="btn btn-custom">send message</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

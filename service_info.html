@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Full Stack Web Developer and Software Engineer">
+    <meta name="author" content="Md. Fahim Tayebee">
+    <meta name="keywords" content="MediaCenter, Template, eCommerce">
+    <meta name="robots" content="all">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:image" content="assets/img/ss-2.png" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="http://www.savecobd.com" />
+    <meta property="og:title" content="SaveCo" />
+    <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/hover.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/keyframe.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <title>Home - SaveCo</title>
+
+    <script>
+        function onLoadBody() {
+            if (window.screen.width < 992) {
+                document.getElementById("menu").classList.remove("d-block");
+                document.getElementById("menu").classList.add("d-none");
+                document.getElementById("mbl_menu").classList.add("d-block");
+                document.getElementById("mbl_menu").classList.remove("d-none");
+            }
+            else {
+                document.getElementById("menu").classList.remove("d-none");
+                document.getElementById("menu").classList.add("d-block");
+                document.getElementById("mbl_menu").classList.remove("d-block");
+                document.getElementById("mbl_menu").classList.add("d-none");
+            }
+        }
+    </script>
+
+</head>
+
+<body onload="onLoadBody()">
+    <!-- TOP CONTACT ROW -->
+    <section class="top-contact" id="top-menu">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <ul class="d-flex list-unstyled justify-content-between contact-list">
+                        <li>
+                            <span>
+                                <i class="fas fa-phone-square-alt default-color"></i>09638111666
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="far fa-envelope-open default-color"></i>info@savecobd.com
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="d-flex list-unstyled justify-content-end contact-list">
+                        <li>
+                            <span>
+                                <i class="fas fa-mobile-alt  default-color"></i>Save big on our app!
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header Start -->
+    <header class="header-content" id="menu">
+
+        <div class="container">
+            <!-- Menu Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent row">
+                    <div class="col-md-10">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <ul
+                            class=" icon-list-menu list-unstyled d-flex justify-content-between align-items-center m-auto">
+                            <li><a href="cart.html" class=""><i class="fab fa-opencart"></i></a></li>
+                            <li><a href="#" class=""><i class="far fa-bell"></i></a></li>
+                            <li><a href="#" class=""><i class="far fa-comment-alt"></i></a></li>
+                            <li><a href="login.html" class=""><i class="far fa-user"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="menu-holder">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light menu-box">
+                    <div class="container p-0">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                            <ul class="icon-list-menu navbar-nav ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bars"></i>Discount Previllages
+                                    </a>
+                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
+                                        <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
+                                        <a class="dropdown-item" href="categoryView.html">Entertainment</a>
+                                        <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
+                                        <a class="dropdown-item" href="categoryView.html">Furniture</a>
+                                        <a class="dropdown-item" href="categoryView.html">Grocery</a>
+                                        <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
+                                        <a class="dropdown-item" href="categoryView.html">Hospitality</a>
+                                        <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
+                                        <a class="dropdown-item" href="categoryView.html">Life Style</a>
+                                        <a class="dropdown-item" href="categoryView.html">Medicine</a>
+                                        <a class="dropdown-item" href="categoryView.html">Restaurant</a>
+                                        <a class="dropdown-item" href="categoryView.html">Shopping</a>
+                                        <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
+                                        <a class="dropdown-item" href="categoryView.html">Others</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">All Shops</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="service.html">Save Card</a>
+                                        <a class="dropdown-item" href="service.html">ACTIVATION & EVENT MANAGEMENT</a>
+                                        <a class="dropdown-item" href="service.html">WEDDING</a>
+                                        <a class="dropdown-item" href="service.html">CORPORATE</a>
+                                        <a class="dropdown-item" href="service.html">PRIVATE</a>
+                                        <a class="dropdown-item" href="service.html">CONSULTING & BRANDING</a>
+                                        <a class="dropdown-item" href="service.html">SaveCo24/7</a>
+                                        <a class="dropdown-item" href="service.html">International courier</a>
+                                        <a class="dropdown-item" href="service.html">Gift24/7</a>
+                                        <a class="dropdown-item" href="service.html">Tour & Travels</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="icon-list-menu navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="vendor_register.html">Become a vendor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="member_register.html" tabindex="-1"
+                                        aria-disabled="true">become a member</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MOBILE Header Start -->
+    <header class="header-content" id="mbl_menu">
+
+        <div class="container">
+            <!-- MOBILE HEADER LOGO ROW -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="navbar-brand" href="#"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+                            alt=""></a>
+                </div>
+            </div>
+            <!-- MOBILE HEADER MENU WITH SEARCH BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="toggler" type="button" id="nav_btn" onclick="openNav()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-md-11">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="navbg-color  mbl-menu" id="mb_nav_body" onclick="closeNav()">
+            <div class="bg-light mbl-menu" id="mb_nav">
+
+                <div class="col-md-12">
+
+                    <ul class=" icon-list-menu list-unstyled justify-content-between align-items-center m-auto">
+                        <li class="closeBtn">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        </li>
+                        <li class="mbl_login_area">
+                            <a href="login.html" class="btn btn-info">Login</a>
+                        </li>
+                    </ul>
+                    <ul class="icon-list-menu navbar-nav mbl_menu_panel">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="openDropdown1()">
+                                Discount Previllages
+                            </a>
+                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
+                                <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
+                                <a class="dropdown-item" href="categoryView.html">Entertainment</a>
+                                <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
+                                <a class="dropdown-item" href="categoryView.html">Furniture</a>
+                                <a class="dropdown-item" href="categoryView.html">Grocery</a>
+                                <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
+                                <a class="dropdown-item" href="categoryView.html">Hospitality</a>
+                                <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
+                                <a class="dropdown-item" href="categoryView.html">Life Style</a>
+                                <a class="dropdown-item" href="categoryView.html">Medicine</a>
+                                <a class="dropdown-item" href="categoryView.html">Restaurant</a>
+                                <a class="dropdown-item" href="categoryView.html">Shopping</a>
+                                <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
+                                <a class="dropdown-item" href="categoryView.html">Others</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vendorList.html">All Shops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="service.html">Save Card</a>
+                                <a class="dropdown-item" href="service.html">ACTIVATION & EVENT MANAGEMENT</a>
+                                <a class="dropdown-item" href="service.html">WEDDING</a>
+                                <a class="dropdown-item" href="service.html">CORPORATE</a>
+                                <a class="dropdown-item" href="service.html">PRIVATE</a>
+                                <a class="dropdown-item" href="service.html">CONSULTING & BRANDING</a>
+                                <a class="dropdown-item" href="service.html">SaveCo24/7</a>
+                                <a class="dropdown-item" href="service.html">International courier</a>
+                                <a class="dropdown-item" href="service.html">Gift24/7</a>
+                                <a class="dropdown-item" href="service.html">Tour & Travels</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb SECTION -->
+    <section class="breadcrumb-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 m-auto text-center">
+                    <div class="breadcrumb-text">
+                        <ol class="breadcrumb m-auto justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Services</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Service Title</li>
+                        </ol>
+                        <h1>Service Title</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE INFO SECTION -->
+    <section class="service_info_body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="service_sidebar">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                            <li>
+                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="abt-info">
+                        <img src="assets/imgages/logo_main.png" class="img-fluid w-50" alt="">
+                        <p class="title">SaveCo is a data-driven loyalty and engagement platform.</p>
+                    </div>
+                    <div class="contact">
+                        <ul class="list-unstyled contact-list">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+88 01755443322</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-at"></i>
+                                <span>info@savecobd.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>SaveCo, House# 337 (1st Floor) Newmarket road, Aloker Mor, Rajshahi-6100,
+                                    Bangladesh.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="usefull-links">
+                        <h4 class="f-title">Quick Links</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our
+                                    services</a>
+                            </li>
+                            <li>
+                                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a
+                                    vendor</a>
+                            </li>
+                            <li>
+                                <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a
+                                    member</a>
+                            </li>
+                            <li>
+                                <a href="vendorList.html"><i class="far fa-hand-point-right"></i>All Shops</a>
+                            </li>
+                            <li>
+                                <a href="cards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
+                            </li>
+                            <li>
+                                <a href="index.html"><i class="far fa-hand-point-right"></i>Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="usefull-links">
+                        <h4 class="f-title">support</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="about.html"><i class="far fa-hand-point-right"></i>About Us</a>
+                            </li>
+                            <li>
+                                <a href="terms.html"><i class="far fa-hand-point-right"></i>Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="privacy.html"><i class="far fa-hand-point-right"></i>Privacy</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"><i class="far fa-hand-point-right"></i>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="join-us">
+                        <h4>join us</h4>
+                        <ul class="list-unstyled d-flex social-link">
+                            <li>
+                                <a href="http://www.facebook.com" class="link"><i
+                                        class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="btm-footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <p>© SaveCo - All Rights Reserved</p>
+                </div>
+                <div class="col-md-5 text-dark text-right">
+                    <p>Designed By <a href="http://www.aimsbay.com">Aimsbay IT Solutions</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SCRIPTS SECTION -->
+    <!-- <script href="assets/plugins/jquery/jquery.min.js" type="text/javascript"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/popper.js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+        const card_swiper = new Swiper(".card-swiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: true,
+            }
+        });
+
+        const banner_swiper = new Swiper(".swiper-container", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        AOS.init();
+
+        jQuery('.review-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            autoplaySpeed: 3000,
+            navSpeed: 3000,
+            paginationSpeed: 3000,
+            slideSpeed: 3000,
+            smartSpeed: 3000,
+            autoplay: true,
+            dots: false,
+            navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+
+                767: {
+                    items: 2
+                },
+                1200: {
+                    items: 2
+                },
+                2400: {
+                    items: 3
+                }
+            }
+        })
+
+        jQuery('.service-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            autoplaySpeed: 3000,
+            navSpeed: 3000,
+            paginationSpeed: 3000,
+            slideSpeed: 3000,
+            smartSpeed: 3000,
+            autoplay: true,
+            dots: false,
+            navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+
+                767: {
+                    items: 2
+                },
+                1200: {
+                    items: 3
+                },
+                2400: {
+                    items: 3
+                }
+            }
+        })
+
+        function scroll() {
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll > 80) {
+                        $('#menu').css("background", "#fff");
+                    }
+                    else {
+                        $('#menu').css("background", "#fff");
+                    }
+                })
+            })
+        }
+
+    </script>
+</body>
+
+</html>
