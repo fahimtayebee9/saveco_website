@@ -3,7 +3,12 @@
   margin: 0;
   padding: 0;
 }
-
+.header-content form .btn-danger{
+  background-color: #f1592a;
+}
+.top-contact .list-unstyled {
+  color: rgb(32, 32, 32);
+}
 /* MOBILE MENU */
 .collapsing {
   display: none;
@@ -1016,11 +1021,11 @@
 /* FOOTER */
 footer {
   padding: 70px 0px;
-  background-color: #ed662247;
+  background-color: #252525e3;
   padding-bottom: 25px;
 }
 footer .title {
-  color: #212529;
+  color: #fff;
   font-size: 18px;
   text-align: left;
   margin: 0;
@@ -1048,7 +1053,7 @@ footer .usefull-links h4 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #212529;
+  color: #fff;
   text-transform: capitalize;
   padding: 15px;
   margin-bottom: 10px;
@@ -1062,15 +1067,15 @@ footer .usefull-links h4::after{
   left: 0;
   width: 30%;
   height: 4px;
-  background-color: #212529;
+  background-color: #fff;
 }
 footer .usefull-links li a i {
-  color: #212529;
+  color: #fff;
   font-size: 18px;
   margin-right: 5px;
 }
 footer .usefull-links li a {
-  color: #212529;
+  color: #fff;
   font-size: 18px;
   text-decoration: none;
   text-transform: capitalize;
@@ -1089,7 +1094,7 @@ footer h4 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #212529;
+  color: #fff;
   text-transform: capitalize;
   margin: 0;
 }
@@ -1128,7 +1133,7 @@ footer .join-us .social-link li a i {
   font-size: 38px;
   border: none;
   box-shadow: 0 0 0 0;
-  color: #212529;
+  color: #fff;
 }
 
 footer .join-us .social-link li:nth-child(1) a:hover i {
@@ -1143,7 +1148,7 @@ footer .join-us .social-link li:nth-child(3) a:hover i {
 
 .btm-footer {
   padding: 15px 0px;
-  background: #ed6622e3;
+  background: #2f2f2ffc;
 }
 .btm-footer p {
   margin: 0;
@@ -2725,4 +2730,13 @@ label {
 }
 .btn-info:hover{
   background-color: #f1592a;
+}
+footer .list-unstyled {
+  color: white;
+}
+.btn-apply{
+  margin-left: 10px;
+}
+.cardInfo-listView .price .heading{
+  font-size: 24px;
 }

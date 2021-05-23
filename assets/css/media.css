@@ -1220,6 +1220,9 @@
     }
 }
 @media (max-width: 575px){
+    .sc575{
+        margin: auto!important;
+    }
     .cont:first-child {
         margin: auto!important;
     }
