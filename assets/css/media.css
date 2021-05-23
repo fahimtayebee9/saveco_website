@@ -1,0 +1,3439 @@
+@media(max-width: 1920px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+}
+@media(max-width: 1771px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+}
+@media(max-width: 1651px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+}
+@media(max-width: 1440px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+    #navTabeDesc{
+        display: none;
+    }
+    #navTabeMbl{
+        display: block;
+    }
+    #navTabeMbl .dropdown-menu{
+        width: 100%;
+        padding: 0;
+    }
+    .ben{
+        font-size: 16px;
+        color: #212529;
+        background-color: rgb(255, 247, 240);
+    }
+}
+@media(max-width:1350px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+}
+@media(max-width:1250px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+}
+@media(max-width: 1199px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 24px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .categories__deal__countdown{
+        text-align: center;
+    }
+    .categories__hot__deal img {
+        min-width: 50%;
+        text-align: center;
+    }
+    .categories__hot__deal {
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+    #mbl_menu{
+        display: block;
+        padding: 15px 0px;
+    }
+    .top-contact .contact-list li span {
+        font-size: 16px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 65vh;
+    }
+    .banner-con .offer {
+        font-size: 20px;
+    }
+    .banner-con h1{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        right: 2%;
+        top: 50%;
+    }
+    .swipe-btn-left {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        top: 50%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 28px;
+        margin-top: 25px;
+        text-align: left;
+    }
+    .about-us .expert-border {
+        /* display: block; */
+        padding-left: 100px;
+        text-align: center;
+    }
+    .text-para {
+        font-size: 17px;
+        text-align: left;
+        margin: 0px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: left;
+    }
+    .about-us .text-box{
+        text-align: left;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(25%, 20%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 16px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 18px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+    .news-box p {
+        font-size: 18px;
+        text-align: left;
+    }
+    .news-box h4 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 3.5%;
+        top: 48%;
+        padding: 8px 52px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 18px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+    .cont:first-child{
+        margin: 0!important;
+    }
+}
+@media(max-width: 991px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 30px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .categories__deal__countdown{
+        text-align: center;
+    }
+    .categories__hot__deal img {
+        min-width: 50%;
+        text-align: center;
+    }
+    .categories__hot__deal {
+        text-align: center;
+    }
+
+    .breadcrumb-text h1 {
+        font-size: 26px;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 65vh;
+    }
+    .banner-con .offer {
+        font-size: 16px;
+    }
+    .banner-con h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        right: 2%;
+        top: 50%;
+    }
+    .swipe-btn-left {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        top: 50%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 26px;
+        margin-top: 25px;
+        text-align: left;
+    }
+    .about-us .expert-border {
+        /* display: block; */
+        padding-left: 100px;
+        text-align: center;
+    }
+    .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin: 0px;
+    }
+    .btn-custom {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: left;
+    }
+    .about-us .text-box{
+        text-align: left;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(30%, 24%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 16px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 18px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+    .news-box p {
+        font-size: 18px;
+        text-align: left;
+    }
+    .news-box h4 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 2.5%;
+        top: 45%;
+        padding: 8px 40px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 18px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+    .cont:first-child{
+        margin: 0!important;
+    }
+}
+@media(max-width: 767px){
+    .vendor-show{
+        margin-top: 35px;
+    }
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 30px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .categories__deal__countdown{
+        text-align: center;
+    }
+    .categories__hot__deal img {
+        min-width: 50%;
+        text-align: center;
+    }
+    .categories__hot__deal {
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 65vh;
+    }
+    .banner-con .offer {
+        font-size: 16px;
+    }
+    .banner-con h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        right: 2%;
+        top: 50%;
+    }
+    .swipe-btn-left {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        top: 50%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 26px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(22%, 15%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 16px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 18px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 2.5%;
+        top: 41%;
+        padding: 8px 50px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 18px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+    .cont:first-child{
+        margin: 0!important;
+    }
+}
+@media (max-width: 575px){
+    .cont:first-child {
+        margin: auto!important;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 16px;
+    }
+    .banner-con h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 24px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 20px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(32%, 27%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 18px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 18px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 18px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 31%;
+        padding: 8px 50px;
+        font-size: 18px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 16px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .categories__deal__countdown{
+        text-align: center;
+    }
+    .categories__hot__deal img {
+        min-width: 50%;
+        text-align: center;
+    }
+    .categories__hot__deal {
+        text-align: center;
+    }
+}
+@media(max-width:520px){
+    .tag {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        width: 75px;
+        height: 25px;
+    }
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .categories__deal__countdown{
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 16px;
+    }
+    .banner-con h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 22px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(32%, 27%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 16px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 30%;
+        padding: 8px 50px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 16px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+}
+@media(max-width: 475px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 16px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 16px;
+    }
+    .banner-con h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 22px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 16px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(30%, 20%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 16px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 30%;
+        padding: 8px 50px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .review-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 16px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 16px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 16px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 16px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    #progressbar li {
+        font-size: 16px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 16px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+}
+@media(max-width:425px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 14px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 14px;
+    }
+    .banner-con h1{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 22px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(30%, 20%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 14px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title-box {
+        padding-bottom: 5px;
+    }
+    .title {
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 14px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 30%;
+        padding: 7px 25px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 14px;
+    }
+    .review-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 14px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 14px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 13px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 14px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 14px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    #progressbar li {
+        font-size: 14px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 14px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+}
+@media(max-width: 375px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 12px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 14px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 14px;
+    }
+    .banner-con h1{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(25%, 15%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 14px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 14px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 14px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 30%;
+        padding: 7px 25px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 12px;
+    }
+    .review-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 14px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 12px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 12px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 14px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 14px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        font-size: 14px;
+    }
+    #progressbar li {
+        font-size: 14px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 14px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px){
+    .categories__text h2 {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    .categories__deal__countdown h2 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .categories {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer .cd-item span {
+        
+        font-size: 36px;
+    }
+    .categories__deal__countdown .categories__deal__countdown__timer {
+        margin: 0;
+    }
+    .primary-btn {
+        text-align: center;
+        margin: auto;
+    }
+    .categories__deal__countdown span {
+        font-size: 18px;
+        text-align: center;
+    }
+    .top-contact .contact-list li span {
+        font-size: 12px;
+        text-align: center;
+    }
+    .contact-list li i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .top-contact .contact-list, .top-contact .contact-list li {
+        margin: auto;
+    }
+    .toggler {
+        font-size: 14px;
+    }
+    #mbl_menu {
+        padding: 15px 0px;
+    }
+    .mbl-menu{
+        z-index: 9999;
+    }
+    .banner-con {
+        min-height: 45vh;
+    }
+    .banner-con .offer {
+        font-size: 14px;
+    }
+    .banner-con h1{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-con p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .swipe-btn-right {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        right: 2%;
+        top: 45%;
+    }
+    .swipe-btn-left {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        top: 45%;
+    }
+    .about-us {
+        padding: 40px 0px;
+    }
+    .img-con{
+        min-height: 250px;
+    }
+    .a-title {
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about-us .expert-border {
+        display: none;
+    }
+    .text-para {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .btn-custom {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .about-us .text-box{
+        text-align: center;
+    }
+    .services .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .btn-card {
+        font-size: 14px;
+        border-radius: 35px;
+        padding: 5px 15px;
+    }
+    .cont .card .face1 .content .btn-sec {
+        transform: translate(25%, 15%);
+    }
+    .cont .card {
+        margin-bottom: 20px;
+    }
+    .face2 .content ul li p{
+        font-size: 14px;
+    }
+    .service-title {
+        font-size: 18px;
+    }
+    .out-field .a-title {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .counter {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 14px;
+        padding-bottom: 35px;
+    }
+    .newsletter-box {
+        padding: 40px 0px;
+    }
+    .news-box {
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+    .news-box h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .news-box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .news-box h4 {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .news-box input[type="email"] {
+        border-radius: 25px;
+        font-size: 14px;
+    }
+    .news-box .btn-news {
+        border-radius: 25px;
+        right: 0%;
+        top: 30%;
+        padding: 7px 25px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .title-box h1 {
+        font-size: 26px;
+    }
+    .client-review {
+        padding: 45px 0px;
+    }
+    .review-text p {
+        font-size: 12px;
+    }
+    .review-name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .review-1 .review-pic {
+        height: 200px;
+        width: 100%;
+    }
+    .regform-area {
+        padding: 45px 0px;
+    }
+    .form-row {
+        margin-top: 30px;
+    }
+    .form-row .form-group {
+        margin-bottom: 1rem;
+    }
+    .input-setting {
+        font-size: 14px;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    footer {
+        padding: 45px 0px;
+        padding-bottom: 25px;
+    }
+    footer .title {
+        color: #212529;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-list li span {
+        font-size: 16px;
+    }
+    footer .usefull-links h4 {
+        font-size: 24px;
+    }
+    .btm-footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .listBox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .vendor-details table th,.vendor-details table td p {
+        font-size: 12px;
+    }
+    .vendor-details h4{
+        font-size: 18px;
+    }
+    .cardInfo-header ul li a {
+        padding: 10px 15px;
+    }
+    .cardInfo-header ul{
+        justify-content: space-between!important;
+    }
+    .card-banner .a-title{
+        font-size: 24px;
+    }
+    .cardInfo-listView .card-title {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .cardInfo-listView .text-para {
+        text-align: left;
+        margin: 0;
+    }
+    .benifits ul li i{
+        margin-right: 5px;
+    }
+    .benifits .btn-custom {
+        font-size: 12px;
+    }
+    .cardInfo-listView .heading{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .cardInfo-listView .heading::before{
+        display: none;
+    }
+    .cardView-ban {
+        padding: 45px 0px;
+    }
+    .cardView-ban .text-para{
+        margin: 0;
+    }
+    .cardView-ban .a-title{
+        margin: 0;
+    }
+    .cardView-ban .text-para:last-child{
+        margin: 0;
+        padding: 0;
+    }
+    .cardView-info {
+        margin-bottom: 25px;
+    }
+    .cardView-apply {
+        padding: 50px 0px;;
+    }
+    .cardView-apply .text-para{
+        color: white;
+        margin: 0;
+    }
+    .cardView-apply .cardView-info{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .more-card .cardView-info .a-title {
+        font-size: 18px;
+        margin: 0;
+    }
+    .more-card .cardView-info .btn-custom {
+        margin-top: 0px;
+    }
+    .more-card .cardView-info {
+        margin: 20px auto auto auto;
+    }
+    .expert-ban .a-title {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .expert-categoryList h1{
+        font-size: 24px;
+    }
+    .expert-categoryList .exp-rw {
+        margin-top: 30px;
+    }
+    .expert-profile::after {
+        min-height: 35vh;
+    }
+    .profile-details th{
+        width: 35%;
+    }
+    .expert-post .a-title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .expert-post .text-para {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .accordion .link p {
+        padding-left: 20%;
+        font-size: 14px;
+    }
+    .profile-details .accordion .link {
+        padding: 25px 15px 25px 0px;
+    }
+    .accordion li i {
+        top: 14px;
+        left: 8px;
+        font-size: 16px;
+    }
+    .custom-file-label {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    #progressbar li {
+        font-size: 12px;
+    }
+    .fs-title {
+        font-size: 16px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .cmn-style label {
+        font-size: 14px;
+    }
+    .btn-info{
+        font-size: 18px;
+    }
+}

@@ -30,34 +30,18 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/media.css">
 
-    <title>Home - SaveCo</title>
-
-    <script>
-        function onLoadBody() {
-            if (window.screen.width < 992) {
-                document.getElementById("menu").classList.remove("d-block");
-                document.getElementById("menu").classList.add("d-none");
-                document.getElementById("mbl_menu").classList.add("d-block");
-                document.getElementById("mbl_menu").classList.remove("d-none");
-            }
-            else {
-                document.getElementById("menu").classList.remove("d-none");
-                document.getElementById("menu").classList.add("d-block");
-                document.getElementById("mbl_menu").classList.remove("d-block");
-                document.getElementById("mbl_menu").classList.add("d-none");
-            }
-        }
-    </script>
+    <title>Service Info - SaveCo</title>
 
 </head>
 
-<body onload="onLoadBody()">
+<body>
     <!-- TOP CONTACT ROW -->
     <section class="top-contact" id="top-menu">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <ul class="d-flex list-unstyled justify-content-between contact-list">
                         <li>
                             <span>
@@ -83,15 +67,14 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Header Start -->
     <header class="header-content" id="menu">
 
         <div class="container">
             <!-- Menu Bar -->
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75"
-                        alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -100,18 +83,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent row">
                     <div class="col-md-10">
-                        <form class="d-flex">
+                        <form class="d-flex" action="search.html">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
                     <div class="col-md-2">
-                        <ul
-                            class=" icon-list-menu list-unstyled d-flex justify-content-between align-items-center m-auto">
-                            <li><a href="cart.html" class=""><i class="fab fa-opencart"></i></a></li>
-                            <li><a href="#" class=""><i class="far fa-bell"></i></a></li>
-                            <li><a href="#" class=""><i class="far fa-comment-alt"></i></a></li>
-                            <li><a href="login.html" class=""><i class="far fa-user"></i></a></li>
+                        <ul class=" icon-list-menu list-unstyled d-flex justify-content-between align-items-center m-auto">
+                            <li><a href="notificaion.html" class=""><i class="far fa-bell"></i></a></li>
+                            <li><a href="message.html" class=""><i class="far fa-comment-alt"></i></a></li>
+                            <li><a href="login.html" class=""><i class="far fa-user"></i></a></li> <!-- LINK WILL BE CHANGED AFTER LOGIN -->
                         </ul>
                     </div>
 
@@ -126,11 +107,11 @@
                         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                             <ul class="icon-list-menu navbar-nav ">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    <a class="nav-link dropdown-toggle" href="" id="discountPrevillage"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-bars"></i>Discount Previllages
                                     </a>
-                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                    <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage">
                                         <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
                                         <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
                                         <a class="dropdown-item" href="categoryView.html">Entertainment</a>
@@ -149,10 +130,10 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">All Shops</a>
+                                    <a class="nav-link" href="vendorList.html">All Shops</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Membership Card</a>
+                                    <a class="nav-link" href="membershipCards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -160,16 +141,27 @@
                                         Services
                                     </a>
                                     <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="service.html">Save Card</a>
-                                        <a class="dropdown-item" href="service.html">ACTIVATION & EVENT MANAGEMENT</a>
-                                        <a class="dropdown-item" href="service.html">WEDDING</a>
-                                        <a class="dropdown-item" href="service.html">CORPORATE</a>
-                                        <a class="dropdown-item" href="service.html">PRIVATE</a>
-                                        <a class="dropdown-item" href="service.html">CONSULTING & BRANDING</a>
-                                        <a class="dropdown-item" href="service.html">SaveCo24/7</a>
-                                        <a class="dropdown-item" href="service.html">International courier</a>
-                                        <a class="dropdown-item" href="service.html">Gift24/7</a>
-                                        <a class="dropdown-item" href="service.html">Tour & Travels</a>
+                                        <a class="dropdown-item" href="service_info.html">Save Card</a>
+                                        <a class="dropdown-item" href="service_info.html">ACTIVATION & EVENT MANAGEMENT</a>
+                                        <a class="dropdown-item" href="service_info.html">WEDDING</a>
+                                        <a class="dropdown-item" href="service_info.html">CORPORATE</a>
+                                        <a class="dropdown-item" href="service_info.html">PRIVATE</a>
+                                        <a class="dropdown-item" href="service_info.html">CONSULTING & BRANDING</a>
+                                        <a class="dropdown-item" href="service_info.html">SaveCo24/7</a>
+                                        <a class="dropdown-item" href="service_info.html">International courier</a>
+                                        <a class="dropdown-item" href="service_info.html">Gift24/7</a>
+                                        <a class="dropdown-item" href="service_info.html">Tour & Travels</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        More
+                                    </a>
+                                    <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="experts.html">Our Experts</a>
+                                        <a class="dropdown-item" href="offers.html">Latest Offers</a>
+                                        <a class="dropdown-item" href="about.html">About Us</a>
                                     </div>
                                 </li>
                             </ul>
@@ -178,8 +170,7 @@
                                     <a class="nav-link" href="vendor_register.html">Become a vendor</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="member_register.html" tabindex="-1"
-                                        aria-disabled="true">become a member</a>
+                                    <a class="nav-link" href="member_register.html" tabindex="-1" aria-disabled="true">become a member</a>
                                 </li>
                             </ul>
                         </div>
@@ -196,7 +187,7 @@
             <!-- MOBILE HEADER LOGO ROW -->
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a class="navbar-brand" href="#"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+                    <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75"
                             alt=""></a>
                 </div>
             </div>
@@ -205,8 +196,8 @@
                 <button class="toggler" type="button" id="nav_btn" onclick="openNav()">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="col-md-11">
-                    <form class="d-flex">
+                <div class="col-md-11 col-10">
+                    <form class="d-flex" action="search.html">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
                     </form>
@@ -216,9 +207,9 @@
 
         <div class="navbg-color  mbl-menu" id="mb_nav_body" onclick="closeNav()">
             <div class="bg-light mbl-menu" id="mb_nav">
-
+            
                 <div class="col-md-12">
-
+    
                     <ul class=" icon-list-menu list-unstyled justify-content-between align-items-center m-auto">
                         <li class="closeBtn">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -228,11 +219,12 @@
                         </li>
                     </ul>
                     <ul class="icon-list-menu navbar-nav mbl_menu_panel">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" onclick="openDropdown1()">
-                                Discount Previllages
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="discountPrevillage"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bars"></i>Discount Previllages
                             </a>
-                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage">
                                 <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
                                 <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
                                 <a class="dropdown-item" href="categoryView.html">Entertainment</a>
@@ -254,31 +246,44 @@
                             <a class="nav-link" href="vendorList.html">All Shops</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
+                            <a class="nav-link" href="membershipCards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="" id="services_m"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Services
                             </a>
-                            <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="service.html">Save Card</a>
-                                <a class="dropdown-item" href="service.html">ACTIVATION & EVENT MANAGEMENT</a>
-                                <a class="dropdown-item" href="service.html">WEDDING</a>
-                                <a class="dropdown-item" href="service.html">CORPORATE</a>
-                                <a class="dropdown-item" href="service.html">PRIVATE</a>
-                                <a class="dropdown-item" href="service.html">CONSULTING & BRANDING</a>
-                                <a class="dropdown-item" href="service.html">SaveCo24/7</a>
-                                <a class="dropdown-item" href="service.html">International courier</a>
-                                <a class="dropdown-item" href="service.html">Gift24/7</a>
-                                <a class="dropdown-item" href="service.html">Tour & Travels</a>
+                            <div class="dropdown-menu text-dark" aria-labelledby="services_m">
+                                <a class="dropdown-item" href="service_info.html">Save Card</a>
+                                <a class="dropdown-item" href="service_info.html">ACTIVATION & EVENT MANAGEMENT</a>
+                                <a class="dropdown-item" href="service_info.html">WEDDING</a>
+                                <a class="dropdown-item" href="service_info.html">CORPORATE</a>
+                                <a class="dropdown-item" href="service_info.html">PRIVATE</a>
+                                <a class="dropdown-item" href="service_info.html">CONSULTING & BRANDING</a>
+                                <a class="dropdown-item" href="service_info.html">SaveCo24/7</a>
+                                <a class="dropdown-item" href="service_info.html">International courier</a>
+                                <a class="dropdown-item" href="service_info.html">Gift24/7</a>
+                                <a class="dropdown-item" href="service_info.html">Tour & Travels</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experts.html" tabindex="-1" aria-disabled="true">Our Experts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offers.html" tabindex="-1" aria-disabled="true">Latest Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="privacy.html" tabindex="-1" aria-disabled="true">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
 
     <!-- Breadcrumb SECTION -->
     <section class="breadcrumb-body">
@@ -291,7 +296,7 @@
                             <li class="breadcrumb-item"><a href="index.html">Services</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Service Title</li>
                         </ol>
-                        <h1>Service Title</h1>
+                        <h1>Service Info</h1>
                     </div>
                 </div>
             </div>
@@ -301,41 +306,247 @@
     <!-- SERVICE INFO SECTION -->
     <section class="service_info_body">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row getid">
+                <div class="col-md-4">
                     <div class="service_sidebar">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled sidebar-main" id="sidebar_ul">
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#saveCard" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>Save
+                                    Card</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#eventManagement" data-toggle="collapse" class="sidebar_item"><i
+                                        class="fas fa-star-of-david"></i>activation & Event management</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#wedding" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>wedding</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#corporate" data-toggle="collapse" class="sidebar_item"><i
+                                        class="fas fa-star-of-david"></i>corporate</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#private" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>private</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#consulting" data-toggle="collapse" class="sidebar_item"><i
+                                        class="fas fa-star-of-david"></i>consulting & branding</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#saveco247" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>SaveCo
+                                    24/7</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#courrier" data-toggle="collapse" class="sidebar_item"><i
+                                        class="fas fa-star-of-david"></i>international courier</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#gift247" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>gift
+                                    24/7</a>
                             </li>
                             <li>
-                                <a href="#saveCard" class="sidebar_item">Save Card</a>
+                                <a href="#tourTravels" data-toggle="collapse" class="sidebar_item"><i class="fas fa-star-of-david"></i>Tour &
+                                    Travels</a>
                             </li>
                         </ul>
+                    </div>
+                </div>
+                <!-- Service Infos -->
+                <div class="col-md-8 desc main-container collapse in" id="saveCard">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">Save Card</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">Save Card is SaveCo Privilege Discount Card. The Save Card entitle
+                            cardholders to enjoy exclusive offers & discount at a large network of partners in
+                            Rajshahi City area at Bangladesh. Privilege partners and offers are prestigious and
+                            include only the best businesses in town. Offers & discounts are carefully curated to
+                            provide you with the best experience at a lower cost, & buy the best experience we do
+                            not mean the buy one gets one free! We are committed to offering our cardholder’s
+                            various offers & discounts to fit each and everyone’s taste and interest. Save Card made
+                            for You. Save Card is not only a plastic card it’s a Privilege lifestyle Card.</p>
+                        <p class="text-para">Save Card comes with an activation benefit of Dining vouchers:</p>
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>Activation Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Annual Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Dining Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Lifestyle Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Daily needs Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Tour & Travels Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Shopping Benefit</li>
+                        </ul>
+                        <p class="text-para">The Save Card allows you to enjoy exclusive Privilege discounts and rewards
+                            from our more than 150 Partners-establishments Rajshahi city Area.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="eventManagement">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">activation & event management</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">We turn dreams into reality. Weave the story into every thread of your event. And conjure wonderfully collaborative magic to create celebrations that are both unmatched and unforgettable. One secret? We listen. To understand who you are. Who you want to be. And who (and what) matters most to you. We leave no stone unturned, no detail untended to, no possibility unexplored.</p>
+                        <p class="text-para">That’s because the most beautiful event is also the smartest event, and we take pains along every step of the way to deliver both. The initial concepting conversations and the design work that realize your vision are so intrinsically linked, one literally cannot exist without the other. And when we layer in the flawless execution that has become the very essence of who we are, the results are simply spectacular.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="wedding">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">wedding</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">It’s Not A Rafanelli Wedding. It’s Your Wedding. Your Story. Our passion is to help make it yours in a way that you (and your family and guests) will remember for a lifetime: a celebration of love, a tapestry of unforgettable moments. The day is everything you ever dreamed of. And more</p>
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>ENGAGEMENT</li>
+                            <li><i class="far fa-hand-point-right"></i>TURMERIC CEREMONY</li>
+                            <li><i class="far fa-hand-point-right"></i>PHOTOGRAPHY & CINEMATOGRAPHY</li>
+                            <li><i class="far fa-hand-point-right"></i>MARRIAGE ANNIVERSARY</li>
+                            <li><i class="far fa-hand-point-right"></i>EVENT SET DESIGN & STALL DESIGN</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="corporate">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">corporate</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">Behind The Theater And Magic Of Your Corporate Event, We Are All Business. No matter what your corporate occasion, we know that every single detail reflects your brand. And every single detail must be perfect. We never forget that. And neither will any of your guests</p>
+                        
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>INDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right"></i>OUTDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right"></i>CONFERENCE</li>
+                            <li><i class="far fa-hand-point-right"></i>EXHIBITIONS, ROAD SHOWS</li>
+                            <li><i class="far fa-hand-point-right"></i>PRODUCT LAUNCH</li>
+                            <li><i class="far fa-hand-point-right"></i>BRAND ACTIVATION</li>
+                            <li><i class="far fa-hand-point-right"></i>ANNUAL MEETING, AGM, YBR</li>
+                            <li><i class="far fa-hand-point-right"></i>ARTIST MANAGEMENT</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="private">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">private</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">There Will Never Be Another You. Nor Another Event Just Like This. We are humbled to be able to contribute to an evening that might be one of the most special nights of someone’s life. To help make the memory of a lifetime is a labour of love. We have curated and produced entire days and even weekends for groups of family and friends – with events, excursions, dinners, and unexpected experiences that surprise, delight, and resonate with warmth. We have heard more than once from clients, “This was the best time of my life.” And they meant it literally. It would be our great joy to do the same for you.</p>
+                        
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>FAMILY DAY OUT</li>
+                            <li><i class="far fa-hand-point-right"></i>MARRIAGE DAY PARTY</li>
+                            <li><i class="far fa-hand-point-right"></i>BIRTHDAY PARTY</li>
+                            <li><i class="far fa-hand-point-right"></i>GROUP PARTY</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="consulting">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">consulting & branding</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">A Brand Is Simply A Personality. But Not Always Simple To Showcase. That’s music to our ears. And fuel for our creativity, problem-solving and strategic insight – which we can unleash for you on day one. We can conduct market research to assess what other organizations are doing competitively. Help you recalibrate fundraising goals. Find your ideal mix of event type and frequency. We can strengthen your brand, expand your brand, or help re-launch it onto an exciting new trajectory.</p>
+                        
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>URBAN, SEMI URBAN, RURAL ACTIVATION IN ANYWHERE IN BANGLADESH</li>
+                            <li><i class="far fa-hand-point-right"></i>ANY KIND OF ACTIVATION & FAIR</li>
+                            <li><i class="far fa-hand-point-right"></i>NON-PROFIT EVENT: Your Non-Profit Event Is Much More Than an Event. It’s Your Mission</li>
+                            <li><i class="far fa-hand-point-right"></i>INDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right"></i>OUTDOOR EVENT</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="courrier">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">International Courier</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">SaveCo International Courier has emerged as a leading provider of Express, Courier & Logistics services across Bangladesh. Along with the progress of Domestic services, SaveCo Int. Courier has witnessed strong growth in terms of its global outreach. Today, our dynamic range of products/services makes us one of the preferred service providers in the international space for both inbound and outbound movement of shipments.</p>
+                        <div class="info-box-sub">
+                            <h4>Express Services:</h4>
+                            <p class="text-para">International Document Express Services is Expedited Air Express Services, designed to deliver time-sensitive documents worldwide. International Non-Document Express Services is Air Parcel Services, designed to deliver parcels worldwide via a swift customs clearance channel at the origin and destination countries.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Cargo Services:</h4>
+                            <p class="text-para">Door to Door (Express / Economy Services) is the movement of large commercial shipments either on express or economy mode from origin door to destination door. Door to Airport (Express / Deferred Services) is the movement of large commercial shipments either on express or economy mode from origin door to destination airport.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="gift247">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">Save Card</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">Send Warm Wishes On Special Occasions With The Best Online/offline Gift
+                            Shop. There is a reason why people all over the world celebrate occasions like birthdays,
+                            anniversaries, promotions, Women's Day, Mother's Day, Father’s Day and so on. These events
+                            give them a chance to feel special and be appreciative of life! And gifts make these events
+                            all the more enjoyable and memorable. So, if you are planning to send a beautiful flower
+                            bouquet or a basket of chocolates to a loved one on his or her special day, we can get your
+                            gift there with our reliable International gift delivery at your favourite gift shop. At
+                            Giftsnideas, we assure free shipping, timely delivery, high quality and 100% customer
+                            satisfaction. Additionally, over the years, we have introduced many customized products such
+                            as Every Occasion Demand Gifts From the birth of a child to the funeral of dear ones, the
+                            lifecycle of a person revolves around the special occasions in their life. Be it Wedding,
+                            Job Promotion or House Warming Event. We need gifts to show the joy or the worry behind
+                            every occasion. Here are a few events we provide gifts for.</p>
+                        <div class="info-box-sub">
+                            <h4>Gifts To Celebrate Birthday:</h4>
+                            <p class="text-para">When it comes to birthday presents, the options are many. If you wish
+                                to gift flowers, choose bouquets of roses and lilies in pink and red, or a multicoloured
+                                bunch of gerbera daisies. A mixed arrangement of sunflowers, carnations and roses can
+                                also brighten up the recipient’s day. In cakes, you can choose from a variety of
+                                flavours like chocolate, vanilla, butterscotch, cookie dough, cheesecake and more. A
+                                gourmet basket comprising of salty snacks, cheeses, chocolate and cookies can be a great
+                                gift as well.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Romantic Gifts For Wedding/ Anniversary:</h4>
+                            <p class="text-para">Are you looking for anniversary gifts that will make a romantic or passionate statement? Then bouquets of red or pink roses can do the trick. Combos of red roses and teddies can also show your love and affection. A box of designer chocolates or a heart-shaped chocolate cake is also a good idea.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Gift Baskets Delivery to Keep in Touch:</h4>
+                            <p class="text-para">Not seeing someone regularly shouldn’t become an excuse to break the relationship between two people. So, gift your loved ones a coffee or tea basket which will help them get a fresh new start to every day. This is the best way to bring smiles to their faces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="tourTravels">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">tour & Travels</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">Dream holidays without the stress of the 'what ifs', is what we do. We
+                            design our tours so you can experience the world differently. You'll get the personal
+                            service, attention to detail and ease you're looking for while enjoying the unmissable
+                            experiences you've always dreamed of. Tour Differently isn't just what we promise, it's what
+                            we deliver. On our travel tours, you'll enjoy privileged local access in every destination,
+                            including more than 100 one-of-a-kind Be My Guest experiences, exclusive to us. Immersive,
+                            local and enriching, they're a rare chance to Connect with Locals in their homes and
+                            businesses to meet the characters that bring the places we visit life.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-hand-point-right"></i>Activation Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Annual Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Dining Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Lifestyle Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Daily needs Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Tour & Travels Benefit</li>
+                            <li><i class="far fa-hand-point-right"></i>Shopping Benefit</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 desc main-container collapse" id="saveco247">
+                    <div class="info_box text-box about-us">
+                        <h1 class="a-title"><span class="bold default-color">SaveCo 24/7</span></h1>
+                        <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+                        <p class="text-para">SaveCo24/7 online/offline shopping grocery supermarket in Bangladesh. SaveCo24/7 offers shopping for your daily needs products with low-cost home delivery all over the Rajshahi city cash on delivery & online payment option for product categories like beverage, staples, processed food, cleaning aids, baby care, health, beauty etc. Other supermarket items.</p>
+                        <div class="info-box-sub">
+                            <h4>Convenience:</h4>
+                            <p class="text-para">Where else can you do shopping, even at midnight, wearing your nightdress? You don't have to wait in line or wait till the shop assistant helps you with your purchases. You can do your shopping in minutes even if you are busy, apart from saving time and avoiding crowds. Shopping at SaveCo24/7 allows shopping 24 x 7 and also reward with 'no pollution' shopping.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Better prices:</h4>
+                            <p class="text-para">Lowest price and better deals from SaveCo24/7 because products come to you directly from the manufacturer or seller without middlemen involved, we offer discount coupons and rebates.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Variety:</h4>
+                            <p class="text-para">One can get several brands and products from us in one place. You can get in on the latest international trends without spending money on travel; you can shop from retailers in other parts of the country or even the world without being limited by geographic area... We offer a far greater selection of colours and sizes than you will find locally and that's the reason why SaveCo24/7 is one of the best online & offline shopping supermarkets.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Fewer expenses:</h4>
+                            <p class="text-para">Many times, when in conventional shopping people tend to spend a lot more than the required expenses, on things like eating out, travelling impulsive shopping etc.</p>
+                        </div>
+                        <div class="info-box-sub">
+                            <h4>Wide range of the brand:</h4>
+                            <p class="text-para">We deal with all brands of FMCG online & offline to make it convenient to ship through the brand by getting what you need kindly visit our top brand's page in our shopping website & store. We welcome you to explore, busy and save from our shopping website.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -345,7 +556,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-10 col-sm-10 col-md-4 col-lg-4">
                     <div class="abt-info">
                         <img src="assets/imgages/logo_main.png" class="img-fluid w-50" alt="">
                         <p class="title">SaveCo is a data-driven loyalty and engagement platform.</p>
@@ -368,27 +579,24 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-4">
                     <div class="usefull-links">
                         <h4 class="f-title">Quick Links</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our
-                                    services</a>
+                                <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our services</a>
                             </li>
                             <li>
-                                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a
-                                    vendor</a>
+                                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a vendor</a>
                             </li>
                             <li>
-                                <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a
-                                    member</a>
+                                <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a member</a>
                             </li>
                             <li>
                                 <a href="vendorList.html"><i class="far fa-hand-point-right"></i>All Shops</a>
                             </li>
                             <li>
-                                <a href="cards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
+                                <a href="membershipCards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
                             </li>
                             <li>
                                 <a href="index.html"><i class="far fa-hand-point-right"></i>Home</a>
@@ -396,15 +604,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-4">
                     <div class="usefull-links">
                         <h4 class="f-title">support</h4>
                         <ul class="list-unstyled">
                             <li>
                                 <a href="about.html"><i class="far fa-hand-point-right"></i>About Us</a>
-                            </li>
-                            <li>
-                                <a href="terms.html"><i class="far fa-hand-point-right"></i>Terms & Conditions</a>
                             </li>
                             <li>
                                 <a href="privacy.html"><i class="far fa-hand-point-right"></i>Privacy</a>
@@ -418,8 +623,7 @@
                         <h4>join us</h4>
                         <ul class="list-unstyled d-flex social-link">
                             <li>
-                                <a href="http://www.facebook.com" class="link"><i
-                                        class="fab fa-facebook-square"></i></a>
+                                <a href="http://www.facebook.com" class="link"><i class="fab fa-facebook-square"></i></a>
                             </li>
                             <li>
                                 <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
@@ -447,7 +651,6 @@
         </div>
     </section>
 
-
     <!-- SCRIPTS SECTION -->
     <!-- <script href="assets/plugins/jquery/jquery.min.js" type="text/javascript"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -458,8 +661,82 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script src="assets/plugins/jquery.countdown-2.2.0/jquery.countdown.js"></script>
+
+    <script type="text/javascript">
+        $('#getting-started').countdown('2021/12/01', function (event) {
+            $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+        });
+
+        /*------------------
+            CountDown
+        --------------------*/
+        // For demo preview start
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        if (mm == 12) {
+            mm = '01';
+            yyyy = yyyy + 1;
+        } else {
+            mm = parseInt(mm) + 1;
+            mm = String(mm).padStart(2, '0');
+        }
+        var timerdate = mm + '/' + dd + '/' + yyyy;
+        // For demo preview end
+
+
+        // Uncomment below and use your date //
+
+        /* var timerdate = "2020/12/30" */
+
+        $("#countdown").countdown(timerdate, function (event) {
+            $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Days</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hours</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Seconds</p> </div>"));
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".your-element"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
 
     <script>
+        $(function () {
+            var Accordion = function (el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+
+                // Variables privadas
+                var links = this.el.find('.link');
+                // Evento
+                links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+            }
+
+            Accordion.prototype.dropdown = function (e) {
+                var $el = e.data.el;
+                $this = $(this),
+                    $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                };
+            }
+
+            var accordion = new Accordion($('#accordion'), false);
+        });
+        
         const card_swiper = new Swiper(".card-swiper", {
             spaceBetween: 30,
             centeredSlides: true,
@@ -568,7 +845,116 @@
             })
         }
 
+        var saveCard = document.getElementById("saveCard");
+        if (saveCard != null) {
+            saveCard.className += " active show";
+        }
+        var all = document.getElementById("all");
+        if (all != null) {
+            all.className += " active show";
+        }
+
+        // SERVICE INFO PAGE SIDEBAR ACTIVE CHANGE
+        const itemDiv = document.querySelector('a');
+        if (itemDiv.classList.contains('sidebar_item')) {
+            var header = document.getElementById("sidebar_ul");
+            var items = header.getElementsByClassName("sidebar_item");
+            for (var i = 0; i < items.length; i++) {
+                items[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        }
+
+        $(".main-container.collapse").on('shown.bs.collapse', function () {
+            //when a collapsed div is shown hide all other collapsible divs that are visible
+            $(".main-container.collapse").not($(this)).collapse('hide');
+        });
+
     </script>
+
+    <!-- FORM STEPS -->
+    <script>
+        $(document).ready(function () {
+
+            var current_fs, next_fs, previous_fs; //fieldsets
+            var opacity;
+            var current = 1;
+            var steps = $("fieldset").length;
+
+            setProgressBar(current);
+
+            $(".next").click(function () {
+
+                current_fs = $(this).parent();
+                next_fs = $(this).parent().next();
+
+                //Add Class Active
+                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                //show the next fieldset
+                next_fs.show();
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 500
+                });
+                setProgressBar(++current);
+            });
+
+            $(".previous").click(function () {
+
+                current_fs = $(this).parent();
+                previous_fs = $(this).parent().prev();
+
+                //Remove class active
+                $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+                //show the previous fieldset
+                previous_fs.show();
+
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        previous_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 500
+                });
+                setProgressBar(--current);
+            });
+
+            function setProgressBar(curStep) {
+                var percent = parseFloat(100 / steps) * curStep;
+                percent = percent.toFixed();
+                $(".progress-bar")
+                    .css("width", percent + "%")
+            }
+
+            $(".submit").click(function () {
+                return false;
+            })
+
+        });
+    </script>
+
 </body>
 
 </html>
