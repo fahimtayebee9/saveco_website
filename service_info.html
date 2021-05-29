@@ -206,6 +206,7 @@
             </div>
         </div>
     </header>
+    
     <!--MOBILE Header Start -->
     <header class="header-content" id="mbl_menu">
 
@@ -217,6 +218,7 @@
                             alt=""></a>
                 </div>
             </div>
+
             <!-- MOBILE HEADER MENU WITH SEARCH BAR -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="toggler" type="button" id="nav_btn" onclick="openNav()">
@@ -233,9 +235,7 @@
 
         <div class="navbg-color  mbl-menu" id="mb_nav_body" onclick="closeNav()">
             <div class="bg-light mbl-menu" id="mb_nav">
-
                 <div class="col-md-12">
-
                     <ul class=" icon-list-menu list-unstyled justify-content-between align-items-center m-auto">
                         <li class="closeBtn">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -245,12 +245,12 @@
                         </li>
                     </ul>
                     <ul class="icon-list-menu navbar-nav mbl_menu_panel">
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
                             <a class="nav-link dropdown-toggle" href="" id="discountPrevillage" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bars"></i>Discount Previllages
+                                Discount Previllages
                             </a>
-                            <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage">
+                            <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage" id="dp-d">
                                 <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
                                 <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
                                 <a class="dropdown-item" href="categoryView.html">Entertainment</a>
@@ -335,49 +335,49 @@
     <section class="service_info_body">
         <div class="container">
             <div class="row getid">
-                <div class="col-md-4">
+                <div class="col-md-4 pl-0">
                     <div class="service_sidebar">
                         <ul class="list-unstyled sidebar-main" id="sidebar_ul">
-                            <li>
+                            <li class="ac-li">
                                 <a href="#saveCard" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>Save
                                     Card</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#eventManagement" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>activation & Event management</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#wedding" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>wedding</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#corporate" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>corporate</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#private" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>private</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#consulting" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>consulting & branding</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#saveco247" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>SaveCo
                                     24/7</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#courrier" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>international courier</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#gift247" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>gift
                                     24/7</a>
                             </li>
-                            <li>
+                            <li class="ac-li">
                                 <a href="#tourTravels" data-toggle="collapse" class="sidebar_item"><i
                                         class="fas fa-star-of-david"></i>Tour &
                                     Travels</a>
@@ -400,13 +400,13 @@
                             for You. Save Card is not only a plastic card it’s a Privilege lifestyle Card.</p>
                         <p class="text-para">Save Card comes with an activation benefit of Dining vouchers:</p>
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>Activation Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Annual Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Dining Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Lifestyle Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Daily needs Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Tour & Travels Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Shopping Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Activation Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Annual Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Dining Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Lifestyle Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Daily needs Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Tour & Travels Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Shopping Benefit</li>
                         </ul>
                         <p class="text-para">The Save Card allows you to enjoy exclusive Privilege discounts and rewards
                             from our more than 150 Partners-establishments Rajshahi city Area.</p>
@@ -437,11 +437,11 @@
                             lifetime: a celebration of love, a tapestry of unforgettable moments. The day is everything
                             you ever dreamed of. And more</p>
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>ENGAGEMENT</li>
-                            <li><i class="far fa-hand-point-right"></i>TURMERIC CEREMONY</li>
-                            <li><i class="far fa-hand-point-right"></i>PHOTOGRAPHY & CINEMATOGRAPHY</li>
-                            <li><i class="far fa-hand-point-right"></i>MARRIAGE ANNIVERSARY</li>
-                            <li><i class="far fa-hand-point-right"></i>EVENT SET DESIGN & STALL DESIGN</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>ENGAGEMENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>TURMERIC CEREMONY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>PHOTOGRAPHY & CINEMATOGRAPHY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>MARRIAGE ANNIVERSARY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>EVENT SET DESIGN & STALL DESIGN</li>
                         </ul>
                     </div>
                 </div>
@@ -455,14 +455,14 @@
                             of your guests</p>
 
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>INDOOR EVENT</li>
-                            <li><i class="far fa-hand-point-right"></i>OUTDOOR EVENT</li>
-                            <li><i class="far fa-hand-point-right"></i>CONFERENCE</li>
-                            <li><i class="far fa-hand-point-right"></i>EXHIBITIONS, ROAD SHOWS</li>
-                            <li><i class="far fa-hand-point-right"></i>PRODUCT LAUNCH</li>
-                            <li><i class="far fa-hand-point-right"></i>BRAND ACTIVATION</li>
-                            <li><i class="far fa-hand-point-right"></i>ANNUAL MEETING, AGM, YBR</li>
-                            <li><i class="far fa-hand-point-right"></i>ARTIST MANAGEMENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>INDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>OUTDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>CONFERENCE</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>EXHIBITIONS, ROAD SHOWS</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>PRODUCT LAUNCH</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>BRAND ACTIVATION</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>ANNUAL MEETING, AGM, YBR</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>ARTIST MANAGEMENT</li>
                         </ul>
                     </div>
                 </div>
@@ -479,10 +479,10 @@
                             And they meant it literally. It would be our great joy to do the same for you.</p>
 
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>FAMILY DAY OUT</li>
-                            <li><i class="far fa-hand-point-right"></i>MARRIAGE DAY PARTY</li>
-                            <li><i class="far fa-hand-point-right"></i>BIRTHDAY PARTY</li>
-                            <li><i class="far fa-hand-point-right"></i>GROUP PARTY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>FAMILY DAY OUT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>MARRIAGE DAY PARTY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>BIRTHDAY PARTY</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>GROUP PARTY</li>
                         </ul>
                     </div>
                 </div>
@@ -498,13 +498,13 @@
                             help re-launch it onto an exciting new trajectory.</p>
 
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>URBAN, SEMI URBAN, RURAL ACTIVATION IN ANYWHERE
+                            <li><i class="far fa-hand-point-right mr-2"></i>URBAN, SEMI URBAN, RURAL ACTIVATION IN ANYWHERE
                                 IN BANGLADESH</li>
-                            <li><i class="far fa-hand-point-right"></i>ANY KIND OF ACTIVATION & FAIR</li>
-                            <li><i class="far fa-hand-point-right"></i>NON-PROFIT EVENT: Your Non-Profit Event Is Much
+                            <li><i class="far fa-hand-point-right mr-2"></i>ANY KIND OF ACTIVATION & FAIR</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>NON-PROFIT EVENT: Your Non-Profit Event Is Much
                                 More Than an Event. It’s Your Mission</li>
-                            <li><i class="far fa-hand-point-right"></i>INDOOR EVENT</li>
-                            <li><i class="far fa-hand-point-right"></i>OUTDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>INDOOR EVENT</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>OUTDOOR EVENT</li>
                         </ul>
                     </div>
                 </div>
@@ -591,13 +591,13 @@
                             local and enriching, they're a rare chance to Connect with Locals in their homes and
                             businesses to meet the characters that bring the places we visit life.</p>
                         <ul class="list-unstyled">
-                            <li><i class="far fa-hand-point-right"></i>Activation Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Annual Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Dining Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Lifestyle Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Daily needs Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Tour & Travels Benefit</li>
-                            <li><i class="far fa-hand-point-right"></i>Shopping Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Activation Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Annual Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Dining Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Lifestyle Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Daily needs Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Tour & Travels Benefit</li>
+                            <li><i class="far fa-hand-point-right mr-2"></i>Shopping Benefit</li>
                         </ul>
                     </div>
                 </div>
@@ -1009,17 +1009,15 @@
         }
 
         // SERVICE INFO PAGE SIDEBAR ACTIVE CHANGE
-        const itemDiv = document.querySelector('a');
-        if (itemDiv.classList.contains('sidebar_item')) {
-            var header = document.getElementById("sidebar_ul");
-            var items = header.getElementsByClassName("sidebar_item");
-            for (var i = 0; i < items.length; i++) {
-                items[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
-            }
+        
+        var header = document.getElementById("sidebar_ul");
+        var items = header.getElementsByClassName("sidebar_item");
+        for (var i = 0; i < items.length; i++) {
+            items[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
         }
 
         $(".main-container.collapse").on('shown.bs.collapse', function () {

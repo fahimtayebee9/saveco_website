@@ -3,12 +3,51 @@
   margin: 0;
   padding: 0;
 }
-
+.dropdown{
+  transition: 0.3s all ease-in-out!important;
+}
+.cardView-info .text-para{
+  color: white;
+  margin: 0;
+}
+.active-ul{
+  background: rgb(255, 81, 0);
+  padding-left: 15px;
+}
+.dropdown-menub{
+  display: none;
+  height: 0%;
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -moz-transition: 0.3s all ease-in-out;
+  -ms-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+}
+.dropdown:active .dropdown-menub,.dropdown:focus .dropdown-menub{
+  height: fit-content;
+  display: block;
+}
+.dropdown-item:hover{
+  background-color: #f1582a;
+  font-weight: 700!important;
+  color: #fff!important;
+  width: 285px;
+}
+.benifits .btn-custom{
+  padding: 6px 15px;
+  font-size: 15px;
+}
 .header-content form .btn-danger{
   background-color: #f1592a;
 }
 .top-contact .list-unstyled {
   color: rgb(32, 32, 32);
+}
+.cardView-tabheader .nav-tabs{
+  justify-content: space-between;
+}
+#navTabeMbl{
+  display: none;
 }
 /* MOBILE MENU */
 .collapsing {
@@ -187,7 +226,7 @@
   margin-right: 5px;
 }
 .menu-box .icon-list-menu li .dropdown-menu .dropdown-item {
-  color: #212529 !important;
+  color: #212529!important;
   text-align: left;
 }
 .menu-box .icon-list-menu li a {
@@ -1162,7 +1201,12 @@ footer .join-us .social-link li:nth-child(2) a:hover i {
 footer .join-us .social-link li:nth-child(3) a:hover i {
   color: #2491fe;
 }
-
+footer .join-us .social-link li:nth-child(4) a:hover i {
+  color: #8b00a3;
+}
+footer .join-us .social-link li:nth-child(5) a:hover i {
+  color: #00aa47;
+}
 .btm-footer {
   padding: 15px 0px;
   background: #2f2f2ffc;
@@ -1178,7 +1222,7 @@ footer .join-us .social-link li:nth-child(3) a:hover i {
 .btm-footer a {
   border: none;
   text-decoration: none;
-  color: #fff;
+  color: #ff6600;
   font-weight: 600;
 }
 
@@ -1839,6 +1883,10 @@ label {
 }
 .sidebar-main li a.active{
   color: #f1592a;
+  font-weight: 600;
+}
+.c-bn .text-para{
+  color: #111;
 }
 .sidebar-main li a.active i{
   color: #f1592a;

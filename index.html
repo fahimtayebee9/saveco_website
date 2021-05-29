@@ -1,622 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <meta
-      name="description"
-      content="Full Stack Web Developer and Software Engineer"
-    />
-    <meta name="author" content="Md. Fahim Tayebee" />
-    <meta name="keywords" content="MediaCenter, Template, eCommerce" />
-    <meta name="robots" content="all" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta property="og:image" content="assets/img/ss-2.png" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="http://www.savecobd.com" />
-    <meta property="og:title" content="SaveCo" />
-    <link
-      rel="shortcut icon"
-      href="assets/img/Favicon.png"
-      type="image/x-icon"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Full Stack Web Developer and Software Engineer" />
+  <meta name="author" content="Md. Fahim Tayebee" />
+  <meta name="keywords" content="MediaCenter, Template, eCommerce" />
+  <meta name="robots" content="all" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/@fortawesome/fontawesome-free/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/hover.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/keyframe.css" />
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/aos.css" />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/media.css" />
+  <meta property="og:image" content="assets/img/ss-2.png" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="http://www.savecobd.com" />
+  <meta property="og:title" content="SaveCo" />
+  <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon" />
 
-    <title>Home - SaveCo</title>
-    <!-- JQUERY & BOOTSTRAP JS ON TOP FOR POPUP -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/plugins/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/hover.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/keyframe.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets/css/media.css" />
 
-    <script>
+  <title>Home - SaveCo</title>
+  <!-- JQUERY & BOOTSTRAP JS ON TOP FOR POPUP -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("#popup_home").modal("show");
+    });
+  </script>
+
+  <script>
+    //Navbar color chnage
+    function scrollBody() {
       $(document).ready(function () {
-        $("#popup_home").modal("show");
-      });
-    </script>
-
-    <script>
-      //Navbar color chnage
-      function scrollBody() {
-        $(document).ready(function () {
-          $(window).scroll(function () {
-            var scrollheight = $(window).scrollTop();
-            if (scrollheight > 80) {
-              $("#menu").css("background", "#fff");
-              $("#menu").addClass("fixed-menu");
-            } else {
-              $("#menu").removeClass("fixed-menu");
-            }
-          });
+        $(window).scroll(function () {
+          var scrollheight = $(window).scrollTop();
+          if (scrollheight > 80) {
+            $("#menu").css("background", "#fff");
+            $("#menu").addClass("fixed-menu");
+          } else {
+            $("#menu").removeClass("fixed-menu");
+          }
         });
-      }
-    </script>
-  </head>
+      });
+    }
+  </script>
+</head>
 
-  <body onscroll="scrollBody()">
-    <!-- Header Start -->
-    <header class="header-content navbar-back" id="menu">
-      <!-- TOP CONTACT ROW -->
-      <div class="top-contact" id="top-menu">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-6">
-              <ul
-                class="
+<body onscroll="scrollBody()">
+  <!-- Header Start -->
+  <header class="header-content navbar-back" id="menu">
+    <!-- TOP CONTACT ROW -->
+    <div class="top-contact" id="top-menu">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6">
+            <ul class="
                   d-flex
                   list-unstyled
                   justify-content-between
                   contact-list
-                "
-              >
-                <li>
-                  <span>
-                    <i class="fas fa-phone-square-alt default-color"></i>+880
-                    963 888 4422
-                  </span>
-                </li>
-                <li>
-                  <span>
-                    <i class="far fa-envelope-open default-color"></i
-                    >info@savecobd.com
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <ul class="d-flex list-unstyled justify-content-end contact-list">
-                <li>
-                  <span>
-                    <i class="fas fa-mobile-alt default-color"></i>Save big on
-                    our app!
-                  </span>
-                </li>
-              </ul>
-            </div>
+                ">
+              <li>
+                <span>
+                  <i class="fas fa-phone-square-alt default-color"></i>+880
+                  963 888 4422
+                </span>
+              </li>
+              <li>
+                <span>
+                  <i class="far fa-envelope-open default-color"></i>info@savecobd.com
+                </span>
+              </li>
+            </ul>
           </div>
-        </div>
-      </div>
-
-      <div class="container serach-menubar">
-        <!-- Menu Bar -->
-        <!-- <nav class="navbar navbar-expand-lg navbar-light"> -->
-        <nav
-          class="
-            navbar navbar-expand-lg navbar-light
-            justify-content-between
-            black
-          "
-        >
-          <a class="navbar-brand" href="index.html"
-            ><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent row">
-            <div class="col-md-10">
-              <form class="d-flex" action="search.html">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-danger" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-              </form>
-            </div>
-            <div class="col-md-2">
-              <ul
-                class="
-                  icon-list-menu
-                  list-unstyled
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  m-auto
-                "
-              >
-                <li>
-                  <a href="notificaion.html" class=""
-                    ><i class="far fa-bell"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="message.html" class=""
-                    ><i class="far fa-comment-alt"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="login.html" class=""><i class="far fa-user"></i></a>
-                </li>
-                <!-- LINK WILL BE CHANGED AFTER LOGIN -->
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-
-      <div class="menu-holder">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light menu-box">
-            <div class="container p-0">
-              <div
-                class="collapse navbar-collapse justify-content-between"
-                id="navbarSupportedContent"
-              >
-                <ul class="icon-list-menu navbar-nav">
-                  <li class="nav-item dropdown header-menuDrop">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href=""
-                      id="discountPrevillage"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="fas fa-bars"></i>Discount Previllages
-                    </a>
-                    <div
-                      class="dropdown-menu text-dark"
-                      aria-labelledby="discountPrevillage"
-                    >
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Beauty Care</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Daily Needs</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Entertainment</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Electronic Device</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Furniture</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Grocery</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Home Appliance</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Hospitality</a
-                          >
-                        </div>
-                        <div class="col-md-6">
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Hotel & Resort</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Life Style</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Medicine</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Restaurant</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Shopping</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Tour & Travels</a
-                          >
-                          <a class="dropdown-item" href="categoryView.html"
-                            >Others</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="vendorList.html"
-                      >discount points</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="membershipCards.html"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Membership Card</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Services
-                    </a>
-                    <div
-                      class="dropdown-menu text-dark"
-                      aria-labelledby="navbarDropdownMenuLink"
-                    >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Save Card</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Activation & Event Management</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Wedding</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Corporate</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Private</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Consulting & Branding</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >SaveCo24/7</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >International courier</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Gift24/7</a
-                      >
-                      <a class="dropdown-item" href="service_info.html"
-                        >Tour & Travels</a
-                      >
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      More
-                    </a>
-                    <div
-                      class="dropdown-menu text-dark"
-                      aria-labelledby="navbarDropdownMenuLink"
-                    >
-                      <a class="dropdown-item" href="experts.html"
-                        >Our Experts</a
-                      >
-                      <a class="dropdown-item" href="offers.html"
-                        >Latest Offers</a
-                      >
-                      <a class="dropdown-item" href="about.html">About Us</a>
-                    </div>
-                  </li>
-                </ul>
-                <ul class="icon-list-menu navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="vendor_register.html"
-                      >Become a partner</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="member_register.html"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >become a member</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- POPUP MODAL -->
-    <div id="popup_home" class="modal popup-home fade bd-example-modal-lg">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img
-              src="assets/imgages/ourCardBanner.png"
-              class="img-fluid w-100"
-              alt=""
-            />
+          <div class="col-md-3">
+            <ul class="d-flex list-unstyled justify-content-end contact-list">
+              <li>
+                <span>
+                  <i class="fas fa-mobile-alt default-color"></i>Save big on
+                  our app!
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <!--MOBILE Header Start -->
-    <header class="header-content" id="mbl_menu">
-      <div class="container">
-        <!-- MOBILE HEADER LOGO ROW -->
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <a class="navbar-brand" href="index.html"
-              ><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""
-            /></a>
-          </div>
-        </div>
-        <!-- MOBILE HEADER MENU WITH SEARCH BAR -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <button
-            class="toggler"
-            type="button"
-            id="nav_btn"
-            onclick="openNav()"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="col-md-11 col-10">
+    <div class="container serach-menubar">
+      <!-- Menu Bar -->
+      <nav class="  navbar navbar-expand-lg navbar-light justify-content-between black ">
+        <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+            alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent row">
+          <div class="col-md-10">
             <form class="d-flex" action="search.html">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button class="btn btn-danger" type="submit">
                 <i class="fas fa-search"></i>
               </button>
             </form>
           </div>
-        </nav>
-      </div>
-
-      <div class="navbg-color mbl-menu" id="mb_nav_body" onclick="closeNav()">
-        <div class="bg-light mbl-menu" id="mb_nav">
-          <div class="col-md-12">
-            <ul
-              class="
-                icon-list-menu
-                list-unstyled
-                justify-content-between
-                align-items-center
-                m-auto
-              "
-            >
-              <li class="closeBtn">
-                <a
-                  href="javascript:void(0)"
-                  class="closebtn"
-                  onclick="closeNav()"
-                  >&times;</a
-                >
+          <div class="col-md-2">
+            <ul class=" icon-list-menu list-unstyled d-flex justify-content-between align-items-center m-auto ">
+              <li>
+                <a href="notificaion.html" class=""><i class="far fa-bell"></i></a>
               </li>
-              <li class="mbl_login_area">
-                <a href="login.html" class="btn btn-info">Login</a>
+              <li>
+                <a href="message.html" class=""><i class="far fa-comment-alt"></i></a>
               </li>
-            </ul>
-            <ul class="icon-list-menu navbar-nav mbl_menu_panel">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href=""
-                  id="discountPrevillage"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <i class="fas fa-bars"></i>Discount Previllages
-                </a>
-                <div
-                  class="dropdown-menu text-dark"
-                  aria-labelledby="discountPrevillage"
-                >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Beauty Care</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Daily Needs</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Entertainment</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Electronic Device</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Furniture</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html">Grocery</a>
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Home Appliance</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Hospitality</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Hotel & Resort</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Life Style</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html">Medicine</a>
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Restaurant</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html">Shopping</a>
-                  <a class="dropdown-item" href="categoryView.html"
-                    >Tour & Travels</a
-                  >
-                  <a class="dropdown-item" href="categoryView.html">Others</a>
-                </div>
+              <li>
+                <a href="login.html" class=""><i class="far fa-user"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="vendorList.html">All Shops</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="membershipCards.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Membership Card</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href=""
-                  id="services_m"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <div
-                  class="dropdown-menu text-dark"
-                  aria-labelledby="services_m"
-                >
-                  <a class="dropdown-item" href="service_info.html"
-                    >Save Card</a
-                  >
-                  <a class="dropdown-item" href="service_info.html"
-                    >ACTIVATION & EVENT MANAGEMENT</a
-                  >
-                  <a class="dropdown-item" href="service_info.html">WEDDING</a>
-                  <a class="dropdown-item" href="service_info.html"
-                    >CORPORATE</a
-                  >
-                  <a class="dropdown-item" href="service_info.html">PRIVATE</a>
-                  <a class="dropdown-item" href="service_info.html"
-                    >CONSULTING & BRANDING</a
-                  >
-                  <a class="dropdown-item" href="service_info.html"
-                    >SaveCo24/7</a
-                  >
-                  <a class="dropdown-item" href="service_info.html"
-                    >International courier</a
-                  >
-                  <a class="dropdown-item" href="service_info.html">Gift24/7</a>
-                  <a class="dropdown-item" href="service_info.html"
-                    >Tour & Travels</a
-                  >
-                </div>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="experts.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Our Experts</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="offers.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Latest Offers</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="about.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="privacy.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Privacy Policy</a
-                >
-              </li>
+              <!-- LINK WILL BE CHANGED AFTER LOGIN -->
             </ul>
           </div>
         </div>
-      </div>
-    </header>
+      </nav>
+    </div>
 
-    <!-- Banner Section -->
-    <section class="banner">
-      <div class="container" data-aos="zoom-in">
-        <div
-          class="
+    <div class="menu-holder">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light menu-box">
+          <div class="container p-0">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+              <ul class="icon-list-menu navbar-nav">
+                <li class="nav-item dropdown header-menuDrop">
+                  <a class="nav-link dropdown-toggle" href="" id="discountPrevillage" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Discount Previllages
+                  </a>
+                  <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
+                        <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
+                        <a class="dropdown-item" href="categoryView.html">Entertainment</a>
+                        <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
+                        <a class="dropdown-item" href="categoryView.html">Furniture</a>
+                        <a class="dropdown-item" href="categoryView.html">Grocery</a>
+                        <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
+                        <a class="dropdown-item" href="categoryView.html">Hospitality</a>
+                      </div>
+                      <div class="col-md-6">
+                        <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
+                        <a class="dropdown-item" href="categoryView.html">Life Style</a>
+                        <a class="dropdown-item" href="categoryView.html">Medicine</a>
+                        <a class="dropdown-item" href="categoryView.html">Restaurant</a>
+                        <a class="dropdown-item" href="categoryView.html">Shopping</a>
+                        <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
+                        <a class="dropdown-item" href="categoryView.html">Others</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="vendorList.html">discount points</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="membershipCards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="service_info.html">Save Card</a>
+                    <a class="dropdown-item" href="service_info.html">Activation & Event Management</a>
+                    <a class="dropdown-item" href="service_info.html">Wedding</a>
+                    <a class="dropdown-item" href="service_info.html">Corporate</a>
+                    <a class="dropdown-item" href="service_info.html">Private</a>
+                    <a class="dropdown-item" href="service_info.html">Consulting & Branding</a>
+                    <a class="dropdown-item" href="service_info.html">SaveCo24/7</a>
+                    <a class="dropdown-item" href="service_info.html">International courier</a>
+                    <a class="dropdown-item" href="service_info.html">Gift24/7</a>
+                    <a class="dropdown-item" href="service_info.html">Tour & Travels</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="experts.html">Our Experts</a>
+                    <a class="dropdown-item" href="offers.html">Latest Offers</a>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="icon-list-menu navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="vendor_register.html">Become a partner</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="member_register.html" tabindex="-1" aria-disabled="true">become a member</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- POPUP MODAL -->
+  <div id="popup_home" class="modal popup-home fade bd-example-modal-lg">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="assets/imgages/ourCardBanner.png" class="img-fluid w-100" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--MOBILE Header Start -->
+  <header class="header-content" id="mbl_menu">
+
+      <div class="container">
+          <!-- MOBILE HEADER LOGO ROW -->
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75"
+                          alt=""></a>
+              </div>
+          </div>
+
+          <!-- MOBILE HEADER MENU WITH SEARCH BAR -->
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <button class="toggler" type="button" id="nav_btn" onclick="openNav()">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-md-11 col-10">
+                  <form class="d-flex" action="search.html">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-danger" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+              </div>
+          </nav>
+      </div>
+
+      <div class="navbg-color  mbl-menu" id="mb_nav_body" onclick="closeNav()">
+          <div class="bg-light mbl-menu" id="mb_nav">
+              <div class="col-md-12">
+                  <ul class=" icon-list-menu list-unstyled justify-content-between align-items-center m-auto">
+                      <li class="closeBtn">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      </li>
+                      <li class="mbl_login_area">
+                          <a href="login.html" class="btn btn-info">Login</a>
+                      </li>
+                  </ul>
+                  <ul class="icon-list-menu navbar-nav mbl_menu_panel">
+                      <li class="nav-item">
+                          <a class="nav-link dropdown-toggle" href="" id="discountPrevillage" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Discount Previllages
+                          </a>
+                          <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage" id="dp-d">
+                              <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
+                              <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
+                              <a class="dropdown-item" href="categoryView.html">Entertainment</a>
+                              <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
+                              <a class="dropdown-item" href="categoryView.html">Furniture</a>
+                              <a class="dropdown-item" href="categoryView.html">Grocery</a>
+                              <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
+                              <a class="dropdown-item" href="categoryView.html">Hospitality</a>
+                              <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
+                              <a class="dropdown-item" href="categoryView.html">Life Style</a>
+                              <a class="dropdown-item" href="categoryView.html">Medicine</a>
+                              <a class="dropdown-item" href="categoryView.html">Restaurant</a>
+                              <a class="dropdown-item" href="categoryView.html">Shopping</a>
+                              <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
+                              <a class="dropdown-item" href="categoryView.html">Others</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="vendorList.html">All Shops</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="membershipCards.html" tabindex="-1"
+                              aria-disabled="true">Membership Card</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="" id="services_m" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Services
+                          </a>
+                          <div class="dropdown-menu text-dark" aria-labelledby="services_m">
+                              <a class="dropdown-item" href="service_info.html">Save Card</a>
+                              <a class="dropdown-item" href="service_info.html">ACTIVATION & EVENT MANAGEMENT</a>
+                              <a class="dropdown-item" href="service_info.html">WEDDING</a>
+                              <a class="dropdown-item" href="service_info.html">CORPORATE</a>
+                              <a class="dropdown-item" href="service_info.html">PRIVATE</a>
+                              <a class="dropdown-item" href="service_info.html">CONSULTING & BRANDING</a>
+                              <a class="dropdown-item" href="service_info.html">SaveCo24/7</a>
+                              <a class="dropdown-item" href="service_info.html">International courier</a>
+                              <a class="dropdown-item" href="service_info.html">Gift24/7</a>
+                              <a class="dropdown-item" href="service_info.html">Tour & Travels</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="experts.html" tabindex="-1" aria-disabled="true">Our Experts</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="offers.html" tabindex="-1" aria-disabled="true">Latest Offers</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="privacy.html" tabindex="-1" aria-disabled="true">Privacy
+                              Policy</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="container" data-aos="zoom-in">
+      <div class="
             row
             w320
             banner-con
@@ -624,68 +352,54 @@
             align-items-center
             text-center
             m-auto
-          "
-        >
-          <div class="col-12 col-lg-12 col-md-12 col-sm-12 main-content">
-            <div class="swiper-container banner-swiper swipe-con">
-              <div class="swiper-wrapper main-silder">
-                <div class="swiper-slide">
-                  <div class="row silder text-right">
-                    <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
-                      <img
-                        src="assets/imgages/sale-50-blue.png"
-                        class="img-fluid w-100"
-                        alt=""
-                      />
-                    </div>
-                    <div class="col-md-6 m-auto align-items-center">
-                      <h1>Become our vendor today</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Amet at praesentium iste suscipit dolorem temporibus.
-                      </p>
-                    </div>
+          ">
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12 main-content">
+          <div class="swiper-container banner-swiper swipe-con">
+            <div class="swiper-wrapper main-silder">
+              <div class="swiper-slide">
+                <div class="row silder text-right">
+                  <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
+                    <img src="assets/imgages/sale-50-blue.png" class="img-fluid w-100" alt="" />
+                  </div>
+                  <div class="col-md-6 m-auto align-items-center">
+                    <h1>Become our vendor today</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Amet at praesentium iste suscipit dolorem temporibus.
+                    </p>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="row silder text-left">
-                    <div class="col-md-6 m-auto align-items-center">
-                      <h1>Become our vendor today</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Amet at praesentium iste suscipit dolorem temporibus.
-                      </p>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
-                      <img
-                        src="assets/imgages/sale-50-blue.png"
-                        class="img-fluid w-100"
-                        alt=""
-                      />
-                    </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row silder text-left">
+                  <div class="col-md-6 m-auto align-items-center">
+                    <h1>Become our vendor today</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Amet at praesentium iste suscipit dolorem temporibus.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
+                    <img src="assets/imgages/sale-50-blue.png" class="img-fluid w-100" alt="" />
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="row silder text-right align-items-center">
-                    <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
-                      <img
-                        src="assets/imgages/sale-50-org.png"
-                        class="img-fluid w-100"
-                        alt=""
-                      />
-                    </div>
-                    <div class="col-md-6 m-auto align-items-center">
-                      <h1>Become our Member</h1>
-                      <p class="offer">
-                        Get
-                        <span class="default-color bold">Up to 50%</span> off on
-                        any of our vendor
-                      </p>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Amet at praesentium iste suscipit dolorem temporibus.
-                      </p>
-                    </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row silder text-right align-items-center">
+                  <div class="col-md-6 col-lg-6 col-sm-8 col-8 m-auto">
+                    <img src="assets/imgages/sale-50-org.png" class="img-fluid w-100" alt="" />
+                  </div>
+                  <div class="col-md-6 m-auto align-items-center">
+                    <h1>Become our Member</h1>
+                    <p class="offer">
+                      Get
+                      <span class="default-color bold">Up to 50%</span> off on
+                      any of our vendor
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Amet at praesentium iste suscipit dolorem temporibus.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -693,387 +407,314 @@
           </div>
         </div>
       </div>
-      <div class="">
-        <div class="swiper-button-next swipe-btn swipe-btn-right">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-        <div class="swiper-button-prev swipe-btn swipe-btn-left">
-          <i class="fas fa-chevron-left"></i>
-        </div>
+    </div>
+    <div class="">
+      <div class="swiper-button-next swipe-btn swipe-btn-right">
+        <i class="fas fa-chevron-right"></i>
       </div>
-    </section>
-
-    <!-- About Us -->
-    <section class="about-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6" data-aos="fade-right">
-            <div class="img-con"></div>
-          </div>
-
-          <div class="col-md-6 align-items-center m-auto" data-aos="fade-left">
-            <div class="text-box">
-              <h1 class="a-title">
-                <span class="bold default-color">Welcome</span> to our business
-              </h1>
-              <span class="expert-border"
-                ><i class="fas fa-star-of-david"></i
-              ></span>
-              <p class="text-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt omnis esse enim, voluptas corporis, adipisci sit fuga
-                in maxime iure amet earum. Eius, ut reprehenderit. Molestiae,
-                voluptatum accusantium. Assumenda sunt accusantium laboriosam
-                odit veritatis cum, ipsa at earum repudiandae facilis eveniet
-                voluptates quasi molestias dolor nam quae necessitatibus
-                repellendus autem voluptas consectetur praesentium iure
-                excepturi ratione.
-              </p>
-              <a href="about.html" class="btn btn-custom">Read More</a>
-            </div>
-          </div>
-        </div>
+      <div class="swiper-button-prev swipe-btn swipe-btn-left">
+        <i class="fas fa-chevron-left"></i>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Our Card Section -->
-    <section class="services">
-      <div class="container">
-        <div
-          class="row pb-5"
-          data-aos="fade-down"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          <div class="col-10 col-md-8 col-lg-8 col-sm-10 m-auto text-center">
+  <!-- About Us -->
+  <section class="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="img-con"></div>
+        </div>
+
+        <div class="col-md-6 align-items-center m-auto" data-aos="fade-left">
+          <div class="text-box">
             <h1 class="a-title">
-              Our <span class="bold">Membership</span> Cards
+              <span class="bold default-color">Welcome</span> to our business
             </h1>
-            <span class="expert-border"
-              ><i class="fas fa-star-of-david"></i
-            ></span>
+            <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
             <p class="text-para">
-              The Save Card allows you to enjoy exclusive Privilege discounts
-              and rewards on your grocery purchases, tuition fee, hospital
-              bills, fuel expenses, restaurant bills and many more from our more
-              than 100 partner-establishments Rajshahi City.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt omnis esse enim, voluptas corporis, adipisci sit fuga
+              in maxime iure amet earum. Eius, ut reprehenderit. Molestiae,
+              voluptatum accusantium. Assumenda sunt accusantium laboriosam
+              odit veritatis cum, ipsa at earum repudiandae facilis eveniet
+              voluptates quasi molestias dolor nam quae necessitatibus
+              repellendus autem voluptas consectetur praesentium iure
+              excepturi ratione.
             </p>
+            <a href="about.html" class="btn btn-custom">Read More</a>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="row" data-aos="fade-right" data-aos-duration="1000">
-          <!-- GOLD CARD -->
-          <div
-            class="col-10 col-md-6 col-sm-6 col-lg-4 m-auto wow slideOutUp cont"
-          >
-            <div class="card gold">
-              <div class="face face1">
-                <div class="content">
-                  <span class="overlay overlay-g"></span>
-                  <img
-                    src="assets/imgages/GoldCard.png"
-                    class="img-fluid w-100"
-                  />
-                  <div class="btn-sec">
-                    <a href="cards.html" class="btn btn-card btn-card-g"
-                      >Learn More</a
-                    >
-                  </div>
+  <!-- Our Card Section -->
+  <section class="services">
+    <div class="container">
+      <div class="row pb-5" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+        <div class="col-10 col-md-8 col-lg-8 col-sm-10 m-auto text-center">
+          <h1 class="a-title">
+            Our <span class="bold">Membership</span> Cards
+          </h1>
+          <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+          <p class="text-para">
+            The Save Card allows you to enjoy exclusive Privilege discounts
+            and rewards on your grocery purchases, tuition fee, hospital
+            bills, fuel expenses, restaurant bills and many more from our more
+            than 100 partner-establishments Rajshahi City.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-right" data-aos-duration="1000">
+        <!-- GOLD CARD -->
+        <div class="col-10 col-md-6 col-sm-6 col-lg-4 m-auto wow slideOutUp cont">
+          <div class="card gold">
+            <div class="face face1">
+              <div class="content">
+                <span class="overlay overlay-g"></span>
+                <img src="assets/imgages/GoldCard.png" class="img-fluid w-100" />
+                <div class="btn-sec">
+                  <a href="cards.html" class="btn btn-card btn-card-g">Learn More</a>
                 </div>
-                <div class="face2">
-                  <div class="content">
-                    <h4 class="service-title text-center">GOLD</h4>
-                    <ul>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Grocery Discount 5%</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">50% Charge Home Delivery</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Yearly Family Day</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Free Birthday Gift</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">@BDT 499</p>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="face2">
+                <div class="content">
+                  <h4 class="service-title text-center">GOLD</h4>
+                  <ul>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Grocery Discount 5%</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">50% Charge Home Delivery</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Yearly Family Day</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Free Birthday Gift</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">@BDT 499</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- DIAMOND CARD -->
-          <div
-            class="
+        <!-- DIAMOND CARD -->
+        <div class="
               col-10 col-md-6 col-sm-6 col-lg-4
               m-auto
               mb-5
               wow
               slideOutUp
               cont
-            "
-          >
-            <div class="card diamond">
-              <div class="face face1">
-                <div class="content">
-                  <span class="overlay overlay-d"></span>
-                  <img
-                    src="assets/imgages/DiamonCard.jpg"
-                    class="img-fluid w-100"
-                  />
-                  <div class="btn-sec">
-                    <a href="cards.html" class="btn btn-card btn-card-d"
-                      >Learn More</a
-                    >
-                  </div>
+            ">
+          <div class="card diamond">
+            <div class="face face1">
+              <div class="content">
+                <span class="overlay overlay-d"></span>
+                <img src="assets/imgages/DiamonCard.jpg" class="img-fluid w-100" />
+                <div class="btn-sec">
+                  <a href="cards.html" class="btn btn-card btn-card-d">Learn More</a>
                 </div>
-                <div class="face2">
-                  <div class="content">
-                    <h4 class="service-title text-center">DIAMOND</h4>
-                    <ul>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Grocery Discount 6%</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">70% Charge Home Delevary</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Yearly Family Day</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Free Birthday & Marrage Day Gift</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Grocery Creadit BDT 5000</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">@BDT 999</p>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="face2">
+                <div class="content">
+                  <h4 class="service-title text-center">DIAMOND</h4>
+                  <ul>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Grocery Discount 6%</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">70% Charge Home Delevary</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Yearly Family Day</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Free Birthday & Marrage Day Gift</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Grocery Creadit BDT 5000</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">@BDT 999</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- PLATINUM CARD -->
-          <div
-            class="
+        <!-- PLATINUM CARD -->
+        <div class="
               col-10 col-md-6 col-sm-6 col-lg-4
               m-auto
               mb-5
               wow
               slideOutUp
               cont
-            "
-          >
-            <div class="card platinum">
-              <div class="face1">
+            ">
+          <div class="card platinum">
+            <div class="face1">
+              <div class="content">
+                <span class="overlay overlay-p"></span>
+                <img src="assets/imgages/PlatinumCard.png" class="img-fluid w-100" />
+                <div class="btn-sec">
+                  <a href="cards.html" class="btn btn-card btn-card-p">Learn More</a>
+                </div>
+              </div>
+              <div class="face2">
                 <div class="content">
-                  <span class="overlay overlay-p"></span>
-                  <img
-                    src="assets/imgages/PlatinumCard.png"
-                    class="img-fluid w-100"
-                  />
-                  <div class="btn-sec">
-                    <a href="cards.html" class="btn btn-card btn-card-p"
-                      >Learn More</a
-                    >
-                  </div>
-                </div>
-                <div class="face2">
-                  <div class="content">
-                    <h4 class="service-title text-center">PLATINUM</h4>
-                    <ul>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Grocery Discount 6%</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Free Home Delevary</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Yearly Family Day</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Free Birthday & Marrage Day Gift</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">Grocery Creadit BDT 10000</p>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <i class="far fa-check-square"></i>
-                        <p class="m-0 pl-2">@BDT 1499</p>
-                      </li>
-                    </ul>
-                  </div>
+                  <h4 class="service-title text-center">PLATINUM</h4>
+                  <ul>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Grocery Discount 6%</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Free Home Delevary</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Yearly Family Day</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Free Birthday & Marrage Day Gift</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">Grocery Creadit BDT 10000</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="far fa-check-square"></i>
+                      <p class="m-0 pl-2">@BDT 1499</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Our Field Section-->
-    <section class="our-field">
-      <div class="container">
-        <div class="row">
-          <div class="col-10 col-md-8 col-lg-8 col-sm-10 m-auto text-center">
-            <h1 class="a-title">
-              we are an <span class="bold">Expert</span> in this field
-            </h1>
-            <span class="expert-border"
-              ><i class="fas fa-star-of-david"></i
-            ></span>
-            <p class="text-para">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ab
-              at maiores, reiciendis provident odio eum est eveniet alias
-              aliquid.
-            </p>
+  <!-- Our Field Section-->
+  <section class="our-field">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-8 col-lg-8 col-sm-10 m-auto text-center">
+          <h1 class="a-title">
+            we are an <span class="bold">Expert</span> in this field
+          </h1>
+          <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+          <p class="text-para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ab
+            at maiores, reiciendis provident odio eum est eveniet alias
+            aliquid.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-items-center m-auto text-center pt-5 ">
+        <div class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system">
+          <div class="statistic-set connector single-coutnerup">
+            <div class="icon-holder">
+              <span class="icon-bg red"></span>
+              <img src="assets/imgages/001-review.png" class="img-fluid w-50" alt="" />
+            </div>
+            <h2 class="counter">1234</h2>
+            <p class="title">Happy Customers</p>
           </div>
         </div>
-
-        <div
-          class="
-            row
-            justify-content-center
-            align-items-center
-            m-auto
-            text-center
-            pt-5
-          "
-        >
-          <div
-            class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system"
-          >
-            <div class="statistic-set connector single-coutnerup">
-              <div class="icon-holder">
-                <span class="icon-bg red"></span>
-                <img
-                  src="assets/imgages/001-review.png"
-                  class="img-fluid w-50"
-                  alt=""
-                />
-              </div>
-              <h2 class="counter">1234</h2>
-              <p class="title">Happy Customers</p>
+        <div class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system">
+          <div class="statistic-set connector single-coutnerup">
+            <div class="icon-holder">
+              <span class="icon-bg yellow"></span>
+              <img src="assets/imgages/OurExperts.png" class="img-fluid w-50" alt="" />
             </div>
+            <h2 class="counter">1234+</h2>
+            <p class="title">Total Experts</p>
           </div>
-          <div
-            class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system"
-          >
-            <div class="statistic-set connector single-coutnerup">
-              <div class="icon-holder">
-                <span class="icon-bg yellow"></span>
-                <img
-                  src="assets/imgages/OurExperts.png"
-                  class="img-fluid w-50"
-                  alt=""
-                />
-              </div>
-              <h2 class="counter">1234+</h2>
-              <p class="title">Total Experts</p>
+        </div>
+        <div class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system">
+          <div class="statistic-set connector single-coutnerup">
+            <div class="icon-holder">
+              <span class="icon-bg orange"></span>
+              <img src="assets/imgages/002-vendor.png" class="img-fluid w-50" alt="" />
             </div>
+            <h2 class="counter">1234+</h2>
+            <p class="title">Thank You Partners</p>
           </div>
-          <div
-            class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system"
-          >
-            <div class="statistic-set connector single-coutnerup">
-              <div class="icon-holder">
-                <span class="icon-bg orange"></span>
-                <img
-                  src="assets/imgages/002-vendor.png"
-                  class="img-fluid w-50"
-                  alt=""
-                />
-              </div>
-              <h2 class="counter">1234+</h2>
-              <p class="title">Thank You Partners</p>
+        </div>
+        <div class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system">
+          <div class="statistic-set connector single-coutnerup">
+            <div class="icon-holder">
+              <span class="icon-bg white"></span>
+              <img src="assets/imgages/subscriber.png" class="img-fluid w-75" alt="" />
             </div>
-          </div>
-          <div
-            class="col-6 col-lg-3 col-md-3 col-sm-6 detail-stat count-system"
-          >
-            <div class="statistic-set connector single-coutnerup">
-              <div class="icon-holder">
-                <span class="icon-bg white"></span>
-                <img
-                  src="assets/imgages/subscriber.png"
-                  class="img-fluid w-75"
-                  alt=""
-                />
-              </div>
-              <h2 class="counter">1234</h2>
-              <p class="title">Total Subscribers</p>
-            </div>
+            <h2 class="counter">1234</h2>
+            <p class="title">Total Subscribers</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Newsletter -->
-    <section class="newsletter-box">
-      <div class="container">
-        <div class="news-box">
-          <div class="row">
-            <div class="col-md-5 col-lg-5 col-sm-10 col-10 m-auto">
-              <h1>Get update from <br />anywhere</h1>
-              <p>subscribe us to get latest offers</p>
-            </div>
-            <div class="col-md-7 col-lg-7 col-sm-12 col-12 m-auto">
-              <h4>don't miss out on the latest news</h4>
-              <form class="form-inline my-2 my-lg-0">
-                <input
-                  class="form-control w-75"
-                  type="email"
-                  placeholder="Your Email Address"
-                  aria-label="Search"
-                />
-                <button class="btn btn-news my-2 my-sm-0" type="submit">
-                  Subscribe
-                </button>
-              </form>
-            </div>
+  <!-- Newsletter -->
+  <section class="newsletter-box">
+    <div class="container">
+      <div class="news-box">
+        <div class="row">
+          <div class="col-md-5 col-lg-5 col-sm-10 col-10 m-auto">
+            <h1>Get update from <br />anywhere</h1>
+            <p>subscribe us to get latest offers</p>
+          </div>
+          <div class="col-md-7 col-lg-7 col-sm-12 col-12 m-auto">
+            <h4>don't miss out on the latest news</h4>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control w-75" type="email" placeholder="Your Email Address" aria-label="Subscribe" />
+              <button class="btn btn-news my-2 my-sm-0" type="submit">
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Client Review -->
-    <section class="client-review">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 m-auto text-center title-box">
-            <h1>What people say about us</h1>
-            <span class="expert-border"
-              ><i class="fas fa-star-of-david"></i
-            ></span>
-          </div>
-          <div class="col-md-12">
-            <div
-              class="
+  <!-- Client Review -->
+  <section class="client-review">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 m-auto text-center title-box">
+          <h1>What people say about us</h1>
+          <span class="expert-border"><i class="fas fa-star-of-david"></i></span>
+        </div>
+        <div class="col-md-12">
+          <div class="
                 review-carousel
                 owl-carousel
                 owl-theme
@@ -1082,212 +723,150 @@
                 owl-btn-center
                 owl-loaded
                 owl-drag
-              "
-            >
-              <div class="owl-stage-outer">
-                <div class="owl-stage">
-                  <div class="owl-item">
-                    <div
-                      class="item wow fadeInUp"
-                      data-wow-duration="2s"
-                      data-wow-delay="0.3s"
-                      style="
+              ">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s" style="
                         visibility: visible;
                         animation-duration: 2s;
                         animation-delay: 0.3s;
                         animation-name: fadeInUp;
-                      "
-                    >
-                      <div class="review-1">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="review-pic">
-                              <img
-                                src="assets/imgages/review-2.jpeg"
-                                class="user-img img-fluid"
-                                alt="User Image"
-                              />
-                            </div>
+                      ">
+                    <div class="review-1">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="review-pic">
+                            <img src="assets/imgages/review-2.jpeg" class="user-img img-fluid" alt="User Image" />
                           </div>
-                          <div class="col-md-8 m-auto">
-                            <div class="review-text">
-                              <p class="card-title">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Debitis, recusandae.
-                              </p>
-                            </div>
-                            <div class="review-detail">
-                              <div
-                                class="
+                        </div>
+                        <div class="col-md-8 m-auto">
+                          <div class="review-text">
+                            <p class="card-title">
+                              Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Debitis, recusandae.
+                            </p>
+                          </div>
+                          <div class="review-detail">
+                            <div class="
                                   clearfix
                                   user-text
                                   align-items-center
                                   text-left
                                   d-block
-                                "
-                              >
-                                <strong
-                                  class="review-name"
-                                  style="display: block !important"
-                                  >John Doe</strong
-                                >
-                              </div>
+                                ">
+                              <strong class="review-name" style="display: block !important">John Doe</strong>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="owl-item">
-                    <div
-                      class="item wow fadeInUp"
-                      data-wow-duration="2s"
-                      data-wow-delay="0.3s"
-                      style="
+                </div>
+                <div class="owl-item">
+                  <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s" style="
                         visibility: visible;
                         animation-duration: 2s;
                         animation-delay: 0.3s;
                         animation-name: fadeInUp;
-                      "
-                    >
-                      <div class="review-1">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="review-pic">
-                              <img
-                                src="assets/imgages/review-3.jpeg"
-                                class="user-img img-fluid"
-                                alt="User Image"
-                              />
-                            </div>
+                      ">
+                    <div class="review-1">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="review-pic">
+                            <img src="assets/imgages/review-3.jpeg" class="user-img img-fluid" alt="User Image" />
                           </div>
-                          <div class="col-md-8 m-auto">
-                            <div class="review-text">
-                              <p class="card-title">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Debitis, recusandae.
-                              </p>
-                            </div>
-                            <div class="review-detail">
-                              <div
-                                class="
+                        </div>
+                        <div class="col-md-8 m-auto">
+                          <div class="review-text">
+                            <p class="card-title">
+                              Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Debitis, recusandae.
+                            </p>
+                          </div>
+                          <div class="review-detail">
+                            <div class="
                                   clearfix
                                   user-text
                                   align-items-center
                                   text-left
                                   d-block
-                                "
-                              >
-                                <strong
-                                  class="review-name"
-                                  style="display: block !important"
-                                  >Bob Jonson</strong
-                                >
-                              </div>
+                                ">
+                              <strong class="review-name" style="display: block !important">Bob Jonson</strong>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="owl-item">
-                    <div
-                      class="item wow fadeInUp"
-                      data-wow-duration="2s"
-                      data-wow-delay="0.3s"
-                      style="
+                </div>
+                <div class="owl-item">
+                  <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s" style="
                         visibility: visible;
                         animation-duration: 2s;
                         animation-delay: 0.3s;
                         animation-name: fadeInUp;
-                      "
-                    >
-                      <div class="review-1">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="review-pic">
-                              <img
-                                src="assets/imgages/review-5.jpeg"
-                                class="user-img img-fluid"
-                                alt="User Image"
-                              />
-                            </div>
+                      ">
+                    <div class="review-1">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="review-pic">
+                            <img src="assets/imgages/review-5.jpeg" class="user-img img-fluid" alt="User Image" />
                           </div>
-                          <div class="col-md-8 m-auto">
-                            <div class="review-text">
-                              <p class="card-title">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Debitis, recusandae.
-                              </p>
-                            </div>
-                            <div class="review-detail">
-                              <div
-                                class="
+                        </div>
+                        <div class="col-md-8 m-auto">
+                          <div class="review-text">
+                            <p class="card-title">
+                              Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Debitis, recusandae.
+                            </p>
+                          </div>
+                          <div class="review-detail">
+                            <div class="
                                   clearfix
                                   user-text
                                   align-items-center
                                   text-left
                                   d-block
-                                "
-                              >
-                                <strong
-                                  class="review-name"
-                                  style="display: block !important"
-                                  >John Doe</strong
-                                >
-                              </div>
+                                ">
+                              <strong class="review-name" style="display: block !important">John Doe</strong>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="owl-item">
-                    <div
-                      class="item wow fadeInUp"
-                      data-wow-duration="2s"
-                      data-wow-delay="0.3s"
-                      style="
+                </div>
+                <div class="owl-item">
+                  <div class="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s" style="
                         visibility: visible;
                         animation-duration: 2s;
                         animation-delay: 0.3s;
                         animation-name: fadeInUp;
-                      "
-                    >
-                      <div class="review-1">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="review-pic">
-                              <img
-                                src="assets/imgages/review-3.jpeg"
-                                class="user-img img-fluid"
-                                alt="User Image"
-                              />
-                            </div>
+                      ">
+                    <div class="review-1">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="review-pic">
+                            <img src="assets/imgages/review-3.jpeg" class="user-img img-fluid" alt="User Image" />
                           </div>
-                          <div class="col-md-8 m-auto">
-                            <div class="review-text">
-                              <p class="card-title">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Debitis, recusandae.
-                              </p>
-                            </div>
-                            <div class="review-detail">
-                              <div
-                                class="
+                        </div>
+                        <div class="col-md-8 m-auto">
+                          <div class="review-text">
+                            <p class="card-title">
+                              Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Debitis, recusandae.
+                            </p>
+                          </div>
+                          <div class="review-detail">
+                            <div class="
                                   clearfix
                                   user-text
                                   align-items-center
                                   text-left
                                   d-block
-                                "
-                              >
-                                <strong
-                                  class="review-name"
-                                  style="display: block !important"
-                                  >Steven John</strong
-                                >
-                              </div>
+                                ">
+                              <strong class="review-name" style="display: block !important">Steven John</strong>
                             </div>
                           </div>
                         </div>
@@ -1300,549 +879,527 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact FORM -->
-    <section class="regform-area cmn-style">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 m-auto">
-            <h1 class="a-title h1-bottom-border">Get In Touch</h1>
-            <span class="border-def"></span>
-            <p class="text-para">
-              If you want to become a partner, submit your information. Our
-              representative will contact with you very soon.
-            </p>
-          </div>
+  <!-- Contact FORM -->
+  <section class="regform-area cmn-style">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 m-auto">
+          <h1 class="a-title h1-bottom-border">Get In Touch</h1>
+          <span class="border-def"></span>
+          <p class="text-para">
+            If you want to become a partner, submit your information. Our
+            representative will contact with you very soon.
+          </p>
         </div>
-        <div class="row wow slideInDown animation form-row">
-          <div class="col-12">
-            <form>
-              <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      class="form-control input-setting"
-                      id="exampleFormControlInput1"
-                    />
-                    <span class="animate-border"></span>
-                  </div>
+      </div>
+      <div class="row wow slideInDown animation form-row">
+        <div class="col-12">
+          <form>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" placeholder="Name" class="form-control input-setting"
+                    id="exampleFormControlInput1" />
+                  <span class="animate-border"></span>
                 </div>
-                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      placeholder="Mobile Number"
-                      class="form-control input-setting"
-                      id="exampleFormControlInput1"
-                    />
-                    <span class="animate-border"></span>
-                  </div>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" placeholder="Mobile Number" class="form-control input-setting"
+                    id="exampleFormControlInput1" />
+                  <span class="animate-border"></span>
                 </div>
-                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      placeholder="Email"
-                      class="form-control input-setting"
-                      id="exampleFormControlInput1"
-                    />
-                    <span class="animate-border"></span>
-                  </div>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control input-setting"
+                    id="exampleFormControlInput1" />
+                  <span class="animate-border"></span>
                 </div>
-                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      placeholder="Subject"
-                      class="form-control input-setting"
-                    />
-                    <span class="animate-border"></span>
-                  </div>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" placeholder="Subject" class="form-control input-setting" />
+                  <span class="animate-border"></span>
                 </div>
-                <div
-                  class="
+              </div>
+              <div class="
                     col-12 col-lg-12 col-md-12 col-sm-12
                     story-align
                     get-align
-                  "
-                >
-                  <div class="form-group">
-                    <textarea
-                      class="form-control input-setting"
-                      placeholder="Message"
-                      id="exampleFormControlTextarea1"
-                      rows="3"
-                    ></textarea>
-                    <span class="animate-border"></span>
-                  </div>
-                </div>
-                <div class="col-8 col-md-6 get-touch-button">
-                  <a href="#" class="btn btn-custom">send message</a>
+                  ">
+                <div class="form-group">
+                  <textarea class="form-control input-setting" placeholder="Message" id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                  <span class="animate-border"></span>
                 </div>
               </div>
-            </form>
+              <div class="col-8 col-md-6 get-touch-button">
+                <a href="#" class="btn btn-custom">send message</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-sm-10 col-md-4 col-lg-4">
+          <div class="abt-info">
+            <img src="assets/imgages/logo-white_saveco.png" class="img-fluid w-50" alt="">
+            <p class="title">SaveCo is a data-driven loyalty and engagement platform.</p>
+          </div>
+          <div class="contact">
+            <ul class="list-unstyled contact-list">
+              <li>
+                <div class="row">
+                  <div class="col-md-1">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="col-md-10">
+                    <span>+880 963 888 4422</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-1">
+                    <i class="fas fa-at"></i>
+                  </div>
+                  <div class="col-md-10">
+                    <span>info@savecobd.com</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-1 pr-0">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="col-md-10 pr-0">
+                    <span>SaveCo, House# 337 (1st Floor) Newmarket road, Aloker Mor,<br> Rajshahi-6100,
+                      Bangladesh.</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="usefull-links">
+            <h4 class="f-title">Quick Links</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our services</a>
+              </li>
+              <li>
+                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a partner</a>
+              </li>
+              <li>
+                <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a member</a>
+              </li>
+              <li>
+                <a href="vendorList.html"><i class="far fa-hand-point-right"></i>discount points</a>
+              </li>
+              <li>
+                <a href="membershipCards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
+              </li>
+              <li>
+                <a href="index.html"><i class="far fa-hand-point-right"></i>Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="usefull-links">
+            <h4 class="f-title">support</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="about.html"><i class="far fa-hand-point-right"></i>About Us</a>
+              </li>
+              <li>
+                <a href="privacy.html"><i class="far fa-hand-point-right"></i>Privacy</a>
+              </li>
+              <li>
+                <a href="contact.html"><i class="far fa-hand-point-right"></i>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-10 col-sm-6 col-md-4 col-lg-2">
+          <div class="join-us usefull-links">
+            <h4 class="f-title">join us</h4>
+            <ul class="list-unstyled d-flex social-link">
+              <li>
+                <a href="http://www.facebook.com" class="link"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+              </li>
+              <li>
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-
-    <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-10 col-sm-10 col-md-4 col-lg-4">
-                  <div class="abt-info">
-                      <img src="assets/imgages/logo-white_saveco.png" class="img-fluid w-50" alt="">
-                      <p class="title">SaveCo is a data-driven loyalty and engagement platform.</p>
-                  </div>
-                  <div class="contact">
-                      <ul class="list-unstyled contact-list">
-                          <li>
-                              <div class="row">
-                                  <div class="col-md-1">
-                                      <i class="fas fa-phone-alt"></i>
-                                  </div>
-                                  <div class="col-md-10">
-                                      <span>+880 963 888 4422</span>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="row">
-                                  <div class="col-md-1">
-                                      <i class="fas fa-at"></i>
-                                  </div>
-                                  <div class="col-md-10">
-                                      <span>info@savecobd.com</span>
-                                  </div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="row">
-                                  <div class="col-md-1 pr-0">
-                                      <i class="fas fa-map-marker-alt"></i>
-                                  </div>
-                                  <div class="col-md-10 pr-0">
-                                      <span>SaveCo, House# 337 (1st Floor) Newmarket road, Aloker Mor,<br> Rajshahi-6100,
-                                  Bangladesh.</span>
-                                  </div>
-                              </div>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-                  <div class="usefull-links">
-                      <h4 class="f-title">Quick Links</h4>
-                      <ul class="list-unstyled">
-                          <li>
-                              <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our services</a>
-                          </li>
-                          <li>
-                              <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a partner</a>
-                          </li>
-                          <li>
-                              <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a member</a>
-                          </li>
-                          <li>
-                              <a href="vendorList.html"><i class="far fa-hand-point-right"></i>discount points</a>
-                          </li>
-                          <li>
-                              <a href="membershipCards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
-                          </li>
-                          <li>
-                              <a href="index.html"><i class="far fa-hand-point-right"></i>Home</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-                  <div class="usefull-links">
-                      <h4 class="f-title">support</h4>
-                      <ul class="list-unstyled">
-                          <li>
-                              <a href="about.html"><i class="far fa-hand-point-right"></i>About Us</a>
-                          </li>
-                          <li>
-                              <a href="privacy.html"><i class="far fa-hand-point-right"></i>Privacy</a>
-                          </li>
-                          <li>
-                              <a href="contact.html"><i class="far fa-hand-point-right"></i>Contact Us</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-10 col-sm-6 col-md-4 col-lg-2">
-                  <div class="join-us usefull-links">
-                      <h4 class="f-title">join us</h4>
-                      <ul class="list-unstyled d-flex social-link">
-                          <li>
-                              <a href="http://www.facebook.com" class="link"><i class="fab fa-facebook-square"></i></a>
-                          </li>
-                          <li>
-                              <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                          </li>
-                          <li>
-                              <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-                          </li>
-                          <li>
-                              <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                          </li>
-                          <li>
-                              <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
+    </div>
   </footer>
 
   <section class="btm-footer">
-      <div class="container">
-          <div class="row justify-content-between">
-              <div class="col-md-5">
-                  <p>© SaveCo - All Rights Reserved</p>
-              </div>
-              <div class="col-md-5 text-dark text-right">
-                  <p>Designed By <a href="http://www.aimsbay.com">Aimsbay IT Solutions</a></p>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-5">
+          <p>© SaveCo - All Rights Reserved</p>
+        </div>
+        <div class="col-md-5 text-dark text-right">
+          <p>Designed By <a href="http://www.aimsbay.com">Aimsbay IT Solutions</a></p>
+        </div>
       </div>
+    </div>
   </section>
 
   <!-- SCRIPTS SECTION -->
   <!-- <script href="assets/plugins/jquery/jquery.min.js" type="text/javascript"></script> -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/jquery.min.js"></script>
   <script src="assets/plugins/popper.js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/swiper.min.js"></script>
   <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
   <script src="assets/js/vanilla-tilt.js"></script>
   <script src="assets/plugins/jquery.countdown-2.2.0/jquery.countdown.js"></script>
+  <script src="assets/js/script.js"></script>
 
   <script type="text/javascript">
-      $('#getting-started').countdown('2021/12/01', function (event) {
-          $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
-      });
+    $('#getting-started').countdown('2021/12/01', function (event) {
+      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+    });
 
-      /*------------------
-          CountDown
-      --------------------*/
-      // For demo preview start
-      var today = new Date();
-      var dd = String(today.getDate()).padStart(2, '0');
-      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-      var yyyy = today.getFullYear();
+    /*------------------
+        CountDown
+    --------------------*/
+    // For demo preview start
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
 
-      if (mm == 12) {
-          mm = '01';
-          yyyy = yyyy + 1;
-      } else {
-          mm = parseInt(mm) + 1;
-          mm = String(mm).padStart(2, '0');
-      }
-      var timerdate = mm + '/' + dd + '/' + yyyy;
-      // For demo preview end
+    if (mm == 12) {
+      mm = '01';
+      yyyy = yyyy + 1;
+    } else {
+      mm = parseInt(mm) + 1;
+      mm = String(mm).padStart(2, '0');
+    }
+    var timerdate = mm + '/' + dd + '/' + yyyy;
+    // For demo preview end
 
 
-      // Uncomment below and use your date //
+    // Uncomment below and use your date //
 
-      /* var timerdate = "2020/12/30" */
+    /* var timerdate = "2020/12/30" */
 
-      $("#countdown").countdown(timerdate, function (event) {
-          $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Days</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hours</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Seconds</p> </div>"));
-      });
+    $("#countdown").countdown(timerdate, function (event) {
+      $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Days</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hours</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Seconds</p> </div>"));
+    });
 
   </script>
 
   <script type="text/javascript">
-      VanillaTilt.init(document.querySelector(".img-hover"), {
-          max: 25,
-          speed: 400
-      });
+    VanillaTilt.init(document.querySelector(".img-hover"), {
+      max: 25,
+      speed: 400
+    });
 
-      //It also supports NodeList
-      VanillaTilt.init(document.querySelectorAll(".img-hover"));
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll(".img-hover"));
   </script>
 
   <script>
-      $(function () {
-          var Accordion = function (el, multiple) {
-              this.el = el || {};
-              this.multiple = multiple || false;
+    $(function () {
+      var Accordion = function (el, multiple) {
+        this.el = el || {};
+        this.multiple = multiple || false;
 
-              // Variables privadas
-              var links = this.el.find('.link');
-              // Evento
-              links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+        // Variables privadas
+        var links = this.el.find('.link');
+        // Evento
+        links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+      }
+
+      Accordion.prototype.dropdown = function (e) {
+        var $el = e.data.el;
+        $this = $(this),
+          $next = $this.next();
+
+        $next.slideToggle();
+        $this.parent().toggleClass('open');
+
+        if (!e.data.multiple) {
+          $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+        };
+      }
+
+      var accordion = new Accordion($('#accordion'), false);
+    });
+
+
+    $(function () {
+      var Accordion = function (el, multiple) {
+        this.el = el || {};
+        this.multiple = multiple || false;
+
+        // Variables privadas
+        var links = this.el.find('.link');
+        // Evento
+        links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+      }
+
+      Accordion.prototype.dropdown = function (e) {
+        var $el = e.data.el;
+        $this = $(this),
+          $next = $this.next();
+
+        $next.slideToggle();
+        $this.parent().toggleClass('open');
+
+        if (!e.data.multiple) {
+          $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+        };
+      }
+
+      var accordionT = new Accordion($('#accordion-t'), false);
+    });
+
+
+    const card_swiper = new Swiper(".card-swiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: true,
+      }
+    });
+
+    const banner_swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    AOS.init();
+
+    jQuery('.review-carousel').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      autoplaySpeed: 3000,
+      navSpeed: 3000,
+      paginationSpeed: 3000,
+      slideSpeed: 3000,
+      smartSpeed: 3000,
+      autoplay: true,
+      dots: false,
+      navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+
+        767: {
+          items: 2
+        },
+        1200: {
+          items: 2
+        },
+        2400: {
+          items: 3
+        }
+      }
+    })
+
+    jQuery('.service-carousel').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      autoplaySpeed: 3000,
+      navSpeed: 3000,
+      paginationSpeed: 3000,
+      slideSpeed: 3000,
+      smartSpeed: 3000,
+      autoplay: true,
+      dots: false,
+      navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+
+        767: {
+          items: 2
+        },
+        1200: {
+          items: 3
+        },
+        2400: {
+          items: 3
+        }
+      }
+    })
+
+    function scroll() {
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll > 80) {
+            $('#menu').css("background", "#fff");
           }
-
-          Accordion.prototype.dropdown = function (e) {
-              var $el = e.data.el;
-              $this = $(this),
-                  $next = $this.next();
-
-              $next.slideToggle();
-              $this.parent().toggleClass('open');
-
-              if (!e.data.multiple) {
-                  $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-              };
+          else {
+            $('#menu').css("background", "#fff");
           }
-
-          var accordion = new Accordion($('#accordion'), false);
-      });
-      
-
-      $(function () {
-          var Accordion = function (el, multiple) {
-              this.el = el || {};
-              this.multiple = multiple || false;
-
-              // Variables privadas
-              var links = this.el.find('.link');
-              // Evento
-              links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
-          }
-
-          Accordion.prototype.dropdown = function (e) {
-              var $el = e.data.el;
-              $this = $(this),
-                  $next = $this.next();
-
-              $next.slideToggle();
-              $this.parent().toggleClass('open');
-
-              if (!e.data.multiple) {
-                  $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-              };
-          }
-
-          var accordionT = new Accordion($('#accordion-t'), false);
-      });
-
-
-      const card_swiper = new Swiper(".card-swiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          loop: true,
-          loopFillGroupWithBlank: true,
-          autoplay: {
-              delay: 4000,
-              disableOnInteraction: true,
-          }
-      });
-
-      const banner_swiper = new Swiper(".swiper-container", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-              delay: 2500,
-              disableOnInteraction: false,
-          },
-          pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-          },
-          navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-          },
-      });
-
-      AOS.init();
-
-      jQuery('.review-carousel').owlCarousel({
-          loop: true,
-          margin: 30,
-          nav: true,
-          autoplaySpeed: 3000,
-          navSpeed: 3000,
-          paginationSpeed: 3000,
-          slideSpeed: 3000,
-          smartSpeed: 3000,
-          autoplay: true,
-          dots: false,
-          navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
-          responsive: {
-              0: {
-                  items: 1
-              },
-              600: {
-                  items: 2
-              },
-
-              767: {
-                  items: 2
-              },
-              1200: {
-                  items: 2
-              },
-              2400: {
-                  items: 3
-              }
-          }
+        })
       })
+    }
 
-      jQuery('.service-carousel').owlCarousel({
-          loop: true,
-          margin: 30,
-          nav: true,
-          autoplaySpeed: 3000,
-          navSpeed: 3000,
-          paginationSpeed: 3000,
-          slideSpeed: 3000,
-          smartSpeed: 3000,
-          autoplay: true,
-          dots: false,
-          navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
-          responsive: {
-              0: {
-                  items: 1
-              },
-              600: {
-                  items: 2
-              },
+    var saveCard = document.getElementById("saveCard");
+    if (saveCard != null) {
+      saveCard.className += " active show";
+    }
+    var all = document.getElementById("all");
+    if (all != null) {
+      all.className += " active show";
+    }
 
-              767: {
-                  items: 2
-              },
-              1200: {
-                  items: 3
-              },
-              2400: {
-                  items: 3
-              }
-          }
-      })
-
-      function scroll() {
-          $(document).ready(function () {
-              $(window).scroll(function () {
-                  var scroll = $(window).scrollTop();
-                  if (scroll > 80) {
-                      $('#menu').css("background", "#fff");
-                  }
-                  else {
-                      $('#menu').css("background", "#fff");
-                  }
-              })
-          })
+    // SERVICE INFO PAGE SIDEBAR ACTIVE CHANGE
+    const itemDiv = document.querySelector('a');
+    if (itemDiv.classList.contains('sidebar_item')) {
+      var header = document.getElementById("sidebar_ul");
+      var items = header.getElementsByClassName("sidebar_item");
+      for (var i = 0; i < items.length; i++) {
+        items[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
       }
+    }
 
-      var saveCard = document.getElementById("saveCard");
-      if (saveCard != null) {
-          saveCard.className += " active show";
-      }
-      var all = document.getElementById("all");
-      if (all != null) {
-          all.className += " active show";
-      }
-
-      // SERVICE INFO PAGE SIDEBAR ACTIVE CHANGE
-      const itemDiv = document.querySelector('a');
-      if (itemDiv.classList.contains('sidebar_item')) {
-          var header = document.getElementById("sidebar_ul");
-          var items = header.getElementsByClassName("sidebar_item");
-          for (var i = 0; i < items.length; i++) {
-              items[i].addEventListener("click", function () {
-                  var current = document.getElementsByClassName("active");
-                  current[0].className = current[0].className.replace(" active", "");
-                  this.className += " active";
-              });
-          }
-      }
-
-      $(".main-container.collapse").on('shown.bs.collapse', function () {
-          //when a collapsed div is shown hide all other collapsible divs that are visible
-          $(".main-container.collapse").not($(this)).collapse('hide');
-      });
+    $(".main-container.collapse").on('shown.bs.collapse', function () {
+      //when a collapsed div is shown hide all other collapsible divs that are visible
+      $(".main-container.collapse").not($(this)).collapse('hide');
+    });
 
   </script>
 
   <!-- FORM STEPS -->
   <script>
-      $(document).ready(function () {
+    $(document).ready(function () {
 
-          var current_fs, next_fs, previous_fs; //fieldsets
-          var opacity;
-          var current = 1;
-          var steps = $("fieldset").length;
+      var current_fs, next_fs, previous_fs; //fieldsets
+      var opacity;
+      var current = 1;
+      var steps = $("fieldset").length;
 
-          setProgressBar(current);
+      setProgressBar(current);
 
-          $(".next").click(function () {
+      $(".next").click(function () {
 
-              current_fs = $(this).parent();
-              next_fs = $(this).parent().next();
+        current_fs = $(this).parent();
+        next_fs = $(this).parent().next();
 
-              //Add Class Active
-              $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+        //Add Class Active
+        $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
 
-              //show the next fieldset
-              next_fs.show();
-              //hide the current fieldset with style
-              current_fs.animate({ opacity: 0 }, {
-                  step: function (now) {
-                      // for making fielset appear animation
-                      opacity = 1 - now;
+        //show the next fieldset
+        next_fs.show();
+        //hide the current fieldset with style
+        current_fs.animate({ opacity: 0 }, {
+          step: function (now) {
+            // for making fielset appear animation
+            opacity = 1 - now;
 
-                      current_fs.css({
-                          'display': 'none',
-                          'position': 'relative'
-                      });
-                      next_fs.css({ 'opacity': opacity });
-                  },
-                  duration: 500
-              });
-              setProgressBar(++current);
-          });
-
-          $(".previous").click(function () {
-
-              current_fs = $(this).parent();
-              previous_fs = $(this).parent().prev();
-
-              //Remove class active
-              $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
-
-              //show the previous fieldset
-              previous_fs.show();
-
-              //hide the current fieldset with style
-              current_fs.animate({ opacity: 0 }, {
-                  step: function (now) {
-                      // for making fielset appear animation
-                      opacity = 1 - now;
-
-                      current_fs.css({
-                          'display': 'none',
-                          'position': 'relative'
-                      });
-                      previous_fs.css({ 'opacity': opacity });
-                  },
-                  duration: 500
-              });
-              setProgressBar(--current);
-          });
-
-          function setProgressBar(curStep) {
-              var percent = parseFloat(100 / steps) * curStep;
-              percent = percent.toFixed();
-              $(".progress-bar")
-                  .css("width", percent + "%")
-          }
-
-          $(".submit").click(function () {
-              return false;
-          })
-
+            current_fs.css({
+              'display': 'none',
+              'position': 'relative'
+            });
+            next_fs.css({ 'opacity': opacity });
+          },
+          duration: 500
+        });
+        setProgressBar(++current);
       });
+
+      $(".previous").click(function () {
+
+        current_fs = $(this).parent();
+        previous_fs = $(this).parent().prev();
+
+        //Remove class active
+        $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+        //show the previous fieldset
+        previous_fs.show();
+
+        //hide the current fieldset with style
+        current_fs.animate({ opacity: 0 }, {
+          step: function (now) {
+            // for making fielset appear animation
+            opacity = 1 - now;
+
+            current_fs.css({
+              'display': 'none',
+              'position': 'relative'
+            });
+            previous_fs.css({ 'opacity': opacity });
+          },
+          duration: 500
+        });
+        setProgressBar(--current);
+      });
+
+      function setProgressBar(curStep) {
+        var percent = parseFloat(100 / steps) * curStep;
+        percent = percent.toFixed();
+        $(".progress-bar")
+          .css("width", percent + "%")
+      }
+
+      $(".submit").click(function () {
+        return false;
+      })
+
+    });
   </script>
 
 </body>

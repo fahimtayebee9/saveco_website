@@ -1,3 +1,20 @@
+@media(max-width: 3840px){
+    #menu{
+        display: block;
+    }
+    #mbl_menu{
+        display: none;
+    }
+    .get-touch-button{
+        text-align: center;
+    }
+    #navTabeDesc{
+        display: block;
+    }
+    #navTabeMbl{
+        display: none;
+    }
+}
 @media(max-width: 1920px){
     #menu{
         display: block;
@@ -8,62 +25,22 @@
     .get-touch-button{
         text-align: center;
     }
-}
-@media(max-width: 1771px){
-    #menu{
-        display: block;
-    }
-    #mbl_menu{
-        display: none;
-    }
-}
-@media(max-width: 1651px){
-    #menu{
-        display: block;
-    }
-    #mbl_menu{
-        display: none;
-    }
-}
-@media(max-width: 1440px){
-    #menu{
-        display: block;
-    }
-    #mbl_menu{
-        display: none;
-    }
     #navTabeDesc{
         display: block;
     }
     #navTabeMbl{
         display: none;
     }
-    #navTabeMbl .dropdown-menu{
-        width: 100%;
-        padding: 0;
-    }
+    
+}
+@media(max-width: 1440px){
     .ben{
         font-size: 16px;
         color: #212529;
         background-color: rgb(255, 247, 240);
     }
 }
-@media(max-width:1350px){
-    #menu{
-        display: block;
-    }
-    #mbl_menu{
-        display: none;
-    }
-}
-@media(max-width:1250px){
-    #menu{
-        display: block;
-    }
-    #mbl_menu{
-        display: none;
-    }
-}
+
 @media(max-width: 1199px){
     .categories__text h2 {
         line-height: 45px;
@@ -102,12 +79,9 @@
     .categories__hot__deal {
         text-align: center;
     }
-    #menu{
-        display: none;
-    }
-    #mbl_menu{
-        display: block;
-        padding: 15px 0px;
+    
+    .mbl-menu{
+        z-index: 9999;
     }
     .top-contact .contact-list li span {
         font-size: 16px;
@@ -122,9 +96,6 @@
     }
     .toggler {
         font-size: 16px;
-    }
-    #mbl_menu {
-        padding: 15px 0px;
     }
     .mbl-menu{
         z-index: 9999;
@@ -292,7 +263,7 @@
         padding-bottom: 25px;
     }
     footer .title {
-        color: #212529;
+        color: #fff;
         font-size: 16px;
         margin: 0;
         padding: 0;
@@ -344,6 +315,9 @@
     }
     .benifits .btn-custom {
         font-size: 13px;
+    }
+    .benefit-body .nav-tabs .nav-link, .expert-profile .nav-tabs .nav-link {
+        font-size: 14px;
     }
     .cardInfo-listView .heading{
         font-size: 20px;
@@ -451,8 +425,26 @@
     .cont:first-child{
         margin: 0!important;
     }
+    .menu-box .icon-list-menu li a {
+        font-size: 12px;
+    }
 }
 @media(max-width: 991px){
+    #menu{
+        display: none;
+    }
+    #mbl_menu{
+        display: block;
+    }
+    #navTabeDesc{
+        display: none;
+    }
+    #navTabeMbl{
+        display: block;
+    }
+    #navTabeMbl .dropdown-menu{
+        width: 50%;
+    }
     .categories__text h2 {
         line-height: 45px;
         font-size: 30px;
