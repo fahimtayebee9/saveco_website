@@ -34,46 +34,65 @@
 
     <title>About - SaveCo</title>
 
+    <script>
+        //Navbar color chnage
+        function scrollBody(){
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var scrollheight = $(window).scrollTop();
+                    if (scrollheight > 80) {
+                        $('#menu').css("background" , "#fff");
+                        $('#menu').addClass('fixed-menu');
+                    }
+                    else{
+                        $('#menu').removeClass('fixed-menu');
+                    }
+                })
+            })
+        }
+    </script>
+
 </head>
 
-<body>
-    <!-- TOP CONTACT ROW -->
-    <section class="top-contact" id="top-menu">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-6">
-                    <ul class="d-flex list-unstyled justify-content-between contact-list">
-                        <li>
-                            <span>
-                                <i class="fas fa-phone-square-alt default-color"></i>09638111666
-                            </span>
-                        </li>
-                        <li>
-                            <span>
-                                <i class="far fa-envelope-open default-color"></i>info@savecobd.com
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="d-flex list-unstyled justify-content-end contact-list">
-                        <li>
-                            <span>
-                                <i class="fas fa-mobile-alt  default-color"></i>Save big on our app!
-                            </span>
-                        </li>
-                    </ul>
+<body onscroll="scrollBody()">
+    
+    <!-- Header Start -->
+    <header class="header-content navbar-back " id="menu">
+        <!-- TOP CONTACT ROW -->
+        <div class="top-contact" id="top-menu">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <ul class="d-flex list-unstyled justify-content-between contact-list">
+                            <li>
+                                <span>
+                                    <i class="fas fa-phone-square-alt default-color"></i>+880 963 888 4422
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="far fa-envelope-open default-color"></i>info@savecobd.com
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="d-flex list-unstyled justify-content-end contact-list">
+                            <li>
+                                <span>
+                                    <i class="fas fa-mobile-alt  default-color"></i>Save big on our app!
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <!-- Header Start -->
-    <header class="header-content" id="menu">
 
-        <div class="container">
+        <div class="container serach-menubar">
             <!-- Menu Bar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light"> -->
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between black" >
                 <a class="navbar-brand" href="index.html"><img src="assets/imgages/logo.png" class="img-fluid w-75" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -106,31 +125,39 @@
                     <div class="container p-0">
                         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                             <ul class="icon-list-menu navbar-nav ">
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown header-menuDrop">
                                     <a class="nav-link dropdown-toggle" href="" id="discountPrevillage"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-bars"></i>Discount Previllages
                                     </a>
                                     <div class="dropdown-menu text-dark" aria-labelledby="discountPrevillage">
-                                        <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
-                                        <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
-                                        <a class="dropdown-item" href="categoryView.html">Entertainment</a>
-                                        <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
-                                        <a class="dropdown-item" href="categoryView.html">Furniture</a>
-                                        <a class="dropdown-item" href="categoryView.html">Grocery</a>
-                                        <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
-                                        <a class="dropdown-item" href="categoryView.html">Hospitality</a>
-                                        <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
-                                        <a class="dropdown-item" href="categoryView.html">Life Style</a>
-                                        <a class="dropdown-item" href="categoryView.html">Medicine</a>
-                                        <a class="dropdown-item" href="categoryView.html">Restaurant</a>
-                                        <a class="dropdown-item" href="categoryView.html">Shopping</a>
-                                        <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
-                                        <a class="dropdown-item" href="categoryView.html">Others</a>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <a class="dropdown-item" href="categoryView.html">Beauty Care</a>
+                                                <a class="dropdown-item" href="categoryView.html">Daily Needs</a>
+                                                <a class="dropdown-item" href="categoryView.html">Entertainment</a>
+                                                <a class="dropdown-item" href="categoryView.html">Electronic Device</a>
+                                                <a class="dropdown-item" href="categoryView.html">Furniture</a>
+                                                <a class="dropdown-item" href="categoryView.html">Grocery</a>
+                                                <a class="dropdown-item" href="categoryView.html">Home Appliance</a>
+                                                <a class="dropdown-item" href="categoryView.html">Hospitality</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a class="dropdown-item" href="categoryView.html">Hotel & Resort</a>
+                                                <a class="dropdown-item" href="categoryView.html">Life Style</a>
+                                                <a class="dropdown-item" href="categoryView.html">Medicine</a>
+                                                <a class="dropdown-item" href="categoryView.html">Restaurant</a>
+                                                <a class="dropdown-item" href="categoryView.html">Shopping</a>
+                                                <a class="dropdown-item" href="categoryView.html">Tour & Travels</a>
+                                                <a class="dropdown-item" href="categoryView.html">Others</a>
+                                            </div>
+                                        </div>
+                                        
+                                        
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="vendorList.html">All Shops</a>
+                                    <a class="nav-link" href="vendorList.html">discount points</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="membershipCards.html" tabindex="-1" aria-disabled="true">Membership Card</a>
@@ -142,11 +169,11 @@
                                     </a>
                                     <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
                                         <a class="dropdown-item" href="service_info.html">Save Card</a>
-                                        <a class="dropdown-item" href="service_info.html">ACTIVATION & EVENT MANAGEMENT</a>
-                                        <a class="dropdown-item" href="service_info.html">WEDDING</a>
-                                        <a class="dropdown-item" href="service_info.html">CORPORATE</a>
-                                        <a class="dropdown-item" href="service_info.html">PRIVATE</a>
-                                        <a class="dropdown-item" href="service_info.html">CONSULTING & BRANDING</a>
+                                        <a class="dropdown-item" href="service_info.html">Activation & Event Management</a>
+                                        <a class="dropdown-item" href="service_info.html">Wedding</a>
+                                        <a class="dropdown-item" href="service_info.html">Corporate</a>
+                                        <a class="dropdown-item" href="service_info.html">Private</a>
+                                        <a class="dropdown-item" href="service_info.html">Consulting & Branding</a>
                                         <a class="dropdown-item" href="service_info.html">SaveCo24/7</a>
                                         <a class="dropdown-item" href="service_info.html">International courier</a>
                                         <a class="dropdown-item" href="service_info.html">Gift24/7</a>
@@ -167,7 +194,7 @@
                             </ul>
                             <ul class="icon-list-menu navbar-nav ">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="vendor_register.html">Become a vendor</a>
+                                    <a class="nav-link" href="vendor_register.html">Become a partner</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="member_register.html" tabindex="-1" aria-disabled="true">become a member</a>
@@ -345,10 +372,10 @@
                 <div class="col-md-6">
                     <div class="ab-who h-100">
                         <div class="icon-holder">
-                            <img src="assets/imgages/001-question.png" class="img-fluid w-100" alt="icon">
+                            <img src="assets/imgages/service.png" class="img-fluid w-100" alt="icon">
                         </div>
                         <div class="ab-who-content">
-                            <h4>Who we are</h4>
+                            <h4 class="mt-2">Who we are<span class="default-color font-weight-bold">?</span></h4>
                             <p>We are serving individuals with privileges, From Emergency Hospitality Service with
                                 medicine, Grocery (for daily needs), Restaurants, Shoping, Life Style, International
                                 Courier, Tour & Travels, organizations 24/7. We have a dedicated team to collect
@@ -364,10 +391,10 @@
                 <div class="col-md-6">
                     <div class="ab-who h-100">
                         <div class="icon-holder">
-                            <img src="assets/imgages/001-question.png" class="img-fluid w-100" alt="icon">
+                            <img src="assets/imgages/service-2.png" class="img-fluid w-100" alt="icon">
                         </div>
                         <div class="ab-who-content">
-                            <h4>What is <span class="default-color font-weight-bold">“SaveCo”</span></h4>
+                            <h4  class="mt-2">What is <span class="default-color font-weight-bold">“SaveCo”?</span></h4>
                             <p>SaveCo online/offline Privilege shopping and service provider with a huge collection of various categories of products and essential services. But most importantly, in believing that shopping is a right, not a luxury. So, we strive to deliver the best products at the most affordable prices and ship them to you regardless of where you are located.</p>
                         </div>
                     </div>
@@ -544,28 +571,46 @@
             <div class="row">
                 <div class="col-10 col-sm-10 col-md-4 col-lg-4">
                     <div class="abt-info">
-                        <img src="assets/imgages/logo_main.png" class="img-fluid w-50" alt="">
+                        <img src="assets/imgages/logo-white_saveco.png" class="img-fluid w-50" alt="">
                         <p class="title">SaveCo is a data-driven loyalty and engagement platform.</p>
                     </div>
                     <div class="contact">
                         <ul class="list-unstyled contact-list">
                             <li>
-                                <i class="fas fa-phone-alt"></i>
-                                <span>+88 01755443322</span>
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <span>+880 963 888 4422</span>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <i class="fas fa-at"></i>
-                                <span>info@savecobd.com</span>
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <span>info@savecobd.com</span>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>SaveCo, House# 337 (1st Floor) Newmarket road, Aloker Mor, Rajshahi-6100,
+                                <div class="row">
+                                    <div class="col-md-1 pr-0">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-md-10 pr-0">
+                                        <span>SaveCo, House# 337 (1st Floor) Newmarket road, Aloker Mor,<br> Rajshahi-6100,
                                     Bangladesh.</span>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-10 col-sm-6 col-md-4 col-lg-4">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
                     <div class="usefull-links">
                         <h4 class="f-title">Quick Links</h4>
                         <ul class="list-unstyled">
@@ -573,13 +618,13 @@
                                 <a href="service.html" class="link"><i class="far fa-hand-point-right"></i>Our services</a>
                             </li>
                             <li>
-                                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a vendor</a>
+                                <a href="vendor_register.html"><i class="far fa-hand-point-right"></i>Become a partner</a>
                             </li>
                             <li>
                                 <a href="member_register.html"><i class="far fa-hand-point-right"></i>become a member</a>
                             </li>
                             <li>
-                                <a href="vendorList.html"><i class="far fa-hand-point-right"></i>All Shops</a>
+                                <a href="vendorList.html"><i class="far fa-hand-point-right"></i>discount points</a>
                             </li>
                             <li>
                                 <a href="membershipCards.html"><i class="far fa-hand-point-right"></i>Membership Cards</a>
@@ -590,7 +635,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-10 col-sm-6 col-md-4 col-lg-4">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3">
                     <div class="usefull-links">
                         <h4 class="f-title">support</h4>
                         <ul class="list-unstyled">
@@ -605,8 +650,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="join-us">
-                        <h4>join us</h4>
+                </div>
+                <div class="col-10 col-sm-6 col-md-4 col-lg-2">
+                    <div class="join-us usefull-links">
+                        <h4 class="f-title">join us</h4>
                         <ul class="list-unstyled d-flex social-link">
                             <li>
                                 <a href="http://www.facebook.com" class="link"><i class="fab fa-facebook-square"></i></a>
@@ -616,6 +663,12 @@
                             </li>
                             <li>
                                 <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -640,7 +693,6 @@
     <!-- SCRIPTS SECTION -->
     <!-- <script href="assets/plugins/jquery/jquery.min.js" type="text/javascript"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <script src="assets/js/script.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/plugins/popper.js/popper.min.js"></script>
@@ -723,6 +775,35 @@
             var accordion = new Accordion($('#accordion'), false);
         });
         
+
+        $(function () {
+            var Accordion = function (el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+
+                // Variables privadas
+                var links = this.el.find('.link');
+                // Evento
+                links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+            }
+
+            Accordion.prototype.dropdown = function (e) {
+                var $el = e.data.el;
+                $this = $(this),
+                    $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                };
+            }
+
+            var accordionT = new Accordion($('#accordion-t'), false);
+        });
+
+
         const card_swiper = new Swiper(".card-swiper", {
             spaceBetween: 30,
             centeredSlides: true,

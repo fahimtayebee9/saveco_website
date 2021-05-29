@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .header-content form .btn-danger{
   background-color: #f1592a;
 }
@@ -141,16 +142,12 @@
   background-color: #212529;
 }
 .navbar-back {
-  position: fixed;
+  position: relative;
   top: 0%;
   z-index: 999;
   left: 0%;
   transform: translate(0%, 0%);
-  background: transparent;
-  -webkit-transform: translate(0%, 0%);
-  -moz-transform: translate(0%, 0%);
-  -ms-transform: translate(0%, 0%);
-  -o-transform: translate(0%, 0%);
+  background: #fff;
   width: 100%;
 }
 .top-contact .contact-list li span {
@@ -158,8 +155,9 @@
 }
 
 .header-content {
-  padding: 15px 0;
+  padding: 0px 0;
   padding-bottom: 0px;
+  background: #fff;
 }
 .icon-list-menu li a {
   color: rgb(29, 29, 29);
@@ -169,6 +167,10 @@
 }
 .navbar {
   padding: 0rem 0rem;
+}
+.serach-menubar .navbar {
+  padding: 0rem 0rem;
+  padding-top: 15px;
 }
 .dropdown-menu {
   min-width: 20%;
@@ -321,6 +323,7 @@
   margin-bottom: 15px;
   text-align: left;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .btn-custom {
@@ -746,14 +749,21 @@
   margin-top: 15px;
   color: white;
 }
-
+.fixed-menu{
+  position: fixed;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  -moz-transition: 0.4s all ease-in-out;
+  -ms-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+}
 .icon-holder {
   position: relative;
   width: 80px;
   height: 80px;
   line-height: 70px;
   margin: auto;
-  z-index: 999;
+  z-index: 9;
 }
 .red {
   background: #f44026;
@@ -1020,9 +1030,9 @@
 
 /* FOOTER */
 footer {
-  padding: 70px 0px;
   background-color: #252525e3;
   padding-bottom: 25px;
+  padding-top: 35px;
 }
 footer .title {
   color: #fff;
@@ -1042,6 +1052,10 @@ footer .title {
 .contact-list li i {
   font-size: 18px;
   margin-right: 8px;
+  color: #e94e1b;
+}
+.contact-list li span br{
+  margin-left: 15px;
 }
 
 .contact-list li span {
@@ -1053,12 +1067,15 @@ footer .usefull-links h4 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #e94e1b;
   text-transform: capitalize;
   padding: 15px;
   margin-bottom: 10px;
   position: relative;
   padding-left: 0;
+}
+footer .join-us h4{
+  margin: 0;
 }
 footer .usefull-links h4::after{
   position: absolute;
@@ -1119,7 +1136,7 @@ footer .newsletter .btn-custom::before {
 }
 
 footer .join-us h4 {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 footer .join-us .social-link li {
@@ -1284,6 +1301,10 @@ footer .join-us .social-link li:nth-child(3) a:hover i {
   content: "";
   background-color: #f1592a;
 }
+.terms-privacy nav .nav-tabs{
+  justify-content: center;
+}
+
 .ab-who-content h4 {
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
@@ -1294,6 +1315,7 @@ footer .join-us .social-link li:nth-child(3) a:hover i {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  text-align: justify;
 }
 .slogan {
   font-size: 18px;
@@ -2237,11 +2259,14 @@ label {
   color: #000000;
 }
 .benefit-body .nav-tabs .nav-link.active,
-.expert-profile .nav-tabs .nav-link.active{
+.profile-detail .nav-tabs .nav-link.active{
   color: #f44026;
   background: white;
   border-left: 1px solid #f1592a;
   border-right: 1px solid #f1592a;
+}
+.profile-detail::before, .profile-detail::after{
+  display: none;
 }
 .benefit-body .tab-pane{
   padding: 25px;
@@ -2440,6 +2465,7 @@ label {
 }
 .expert-profile{
   position: relative;
+  padding-bottom: 25px;
 }
 .expert-profile::before{
   position: absolute;
@@ -2453,10 +2479,10 @@ label {
 .expert-profile::after{
   position: absolute;
   content: "";
-  top: 100px;
+  top: 0%;
   left: 0%;
   width: 100%;
-  min-height: 25vh;
+  min-height: 100%;
   background: rgb(39, 39, 39);
   z-index: -1;
 }
@@ -2498,6 +2524,7 @@ label {
   border: none;
   background: transparent;
   padding-bottom: 25px;
+  padding-top: 20px;
   position: relative;
 }
 .expert-profile .nav-tabs .nav-link::before{
@@ -2511,7 +2538,7 @@ label {
   opacity: 0;
   transition: 0.3s all ease-in-out;
 }
-.expert-profile .nav-tabs .nav-link.active {
+.profile-detail .nav-tabs .nav-link.active {
   border: none;
 }
 .expert-profile .nav-tabs .nav-link.active::before {
@@ -2529,7 +2556,7 @@ label {
   background: white;
   border: none;
 }
-.benefit-body .nav-tabs, .expert-profile .nav-tabs {
+.benefit-body .nav-tabs, .profile-detail .nav-tabs {
   justify-content: center;
 }
 .expert-post .a-title{
@@ -2553,14 +2580,15 @@ label {
 	padding-top: 40px;
 	position: relative;
 	z-index: 1;
+  padding-left: 25px;
 }
 
 .categories__text:before {
 	position: absolute;
-	left: -485px;
+	left: 0;
 	top: 0;
 	height: 300px;
-	width: 600px;
+	width: 200px;
 	background: #ffffff;
 	z-index: -1;
 	content: "";
@@ -2569,7 +2597,7 @@ label {
 .categories__text h2 {
 	color: #b7b7b7;
 	line-height: 72px;
-	font-size: 34px;
+	font-size: 30px;
 }
 
 .categories__text h2 span {
@@ -2651,7 +2679,15 @@ label {
 	font-weight: 700;
 	color: #311600;
 }
-
+.white{
+  background: #fff;
+}
+.icon-holder:last-child img{
+  width: 64%!important;
+}
+.icon-holder:last-child{
+  line-height: 75px!important;
+}
 .categories__deal__countdown .categories__deal__countdown__timer .cd-item:last-child:after {
 	display: none;
 }
@@ -2665,6 +2701,9 @@ label {
 	font-weight: 700;
 	display: block;
 	font-size: 36px;
+}
+.header-menuDrop .dropdown-menu{
+  min-width: 600px;
 }
 .dropdown-menu.active, .dropdown-menu.focus {
     height: 100%;
