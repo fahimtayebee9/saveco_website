@@ -33,10 +33,10 @@
         display: none;
     }
     #navTabeDesc{
-        display: none;
+        display: block;
     }
     #navTabeMbl{
-        display: block;
+        display: none;
     }
     #navTabeMbl .dropdown-menu{
         width: 100%;
