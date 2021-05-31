@@ -174,7 +174,53 @@
 .top-contact .contact-list li {
   margin: 0;
 }
-
+.col-contact{
+  padding: 15px;
+  box-shadow: 0 0 3px 4px #00000007;
+  border-radius: 10px;
+}
+.social-link{
+  color: rgb(24, 24, 24);
+  margin-top: 20px;
+}
+.social-link li{
+  margin-right: 10px;
+}
+.join-us .social-link li a i {
+  font-size: 28px;
+  border: none;
+  box-shadow: 0 0 0 0;
+  color: rgb(24, 24, 24);
+}
+.cn-info{
+  text-align: left!important;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.cn-info h4{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: left;
+  color: #f1592a;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 2px solid #000;
+}
+.cn-info p{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: left!important;
+  padding-top: 8px!important;
+}
 .shrink {
   padding-top: 0;
   padding-bottom: 0;
@@ -804,6 +850,9 @@
   margin: auto;
   z-index: 9;
 }
+.w-65{
+  width: 65%!important;
+}
 .red {
   background: #f44026;
 }
@@ -819,7 +868,9 @@
 .blue-light {
   background: #6eb7ff;
 }
-
+.navbar-brand{
+  max-width: 200px;
+}
 .icon-bg {
   width: 80px;
   height: 80px;
@@ -1177,7 +1228,15 @@ footer .newsletter .btn-custom::before {
 footer .join-us h4 {
   margin-bottom: 15px;
 }
-
+.modal-lg{
+  max-width: 950px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.modal-lg ol li{
+  margin-left: 20px;
+}
 footer .join-us .social-link li {
   margin-right: 10px;
 }
@@ -1192,19 +1251,19 @@ footer .join-us .social-link li a i {
   color: #fff;
 }
 
-footer .join-us .social-link li:nth-child(1) a:hover i {
+.join-us .social-link li:nth-child(1) a:hover i {
   color: #0066cc;
 }
-footer .join-us .social-link li:nth-child(2) a:hover i {
+.join-us .social-link li:nth-child(2) a:hover i {
   color: #f44026;
 }
-footer .join-us .social-link li:nth-child(3) a:hover i {
+.join-us .social-link li:nth-child(3) a:hover i {
   color: #2491fe;
 }
-footer .join-us .social-link li:nth-child(4) a:hover i {
-  color: #8b00a3;
+.join-us .social-link li:nth-child(4) a:hover i {
+  color: #8a3ab9;
 }
-footer .join-us .social-link li:nth-child(5) a:hover i {
+.join-us .social-link li:nth-child(5) a:hover i {
   color: #00aa47;
 }
 .btm-footer {
